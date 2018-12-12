@@ -1,0 +1,4 @@
+[submodule "hmmg-html"]
+	path = hmmg-html
+	url = https://github.com/ISO-TC211/hmmg-html
+	shallow = true
