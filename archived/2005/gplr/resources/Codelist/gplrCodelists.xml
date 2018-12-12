@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CT_CodelistCatalogue xmlns="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmx http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmx/gmx.xsd http://www.isotc211.org/2005/gco http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gco/gco.xsd http://www.opengis.net/gml http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19136_Schemas/gml/gml.xsd http://www.w3.org/1999/xlink http://www.w3.org/1999/xlinks.xsd">
+	<!--=====Catalogue description=====-->
+	<name>
+		<gco:CharacterString>gplrCodelists</gco:CharacterString>
+	</name>
+	<scope>
+		<gco:CharacterString>Codelists for description of registries compliant with ISO19145</gco:CharacterString>
+	</scope>
+	<fieldOfApplication>
+		<gco:CharacterString>registration of geographic point location representation items of geographic information</gco:CharacterString>
+	</fieldOfApplication>
+	<versionNumber>
+		<gco:CharacterString>0.1</gco:CharacterString>
+	</versionNumber>
+	<versionDate>
+		<gco:Date>2010-01-15</gco:Date>
+	</versionDate>
+	<!--============================================================================-->
+	<!--============================================================================-->
+	<!--============================= Codelists =======================================-->
+	<!--=== GPLR_RepresentationType ===-->
+	<codelistItem>
+		<CodeListDictionary gml:id="GPLR_RepresentationType">
+			<gml:description>specify the encoding method used for the representation of the geographic point location</gml:description>
+			<gml:identifier codeSpace="ISOTC211/19145">GPLR_RepresentationType</gml:identifier>
+			<codeEntry>
+				<CodeDefinition gml:id="GPLR_RepresentationType_text">
+					<gml:description>The geographic point location is represented in text format.</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19145">text</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="GPLR_RepresentationType_binary">
+					<gml:description>The geographic point location is represented in binary format.</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19145">binary</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="GPLR_RepresentationType_XML">
+					<gml:description>The geographic point location is represented in XML format.</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19145">XML</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+		</CodeListDictionary>
+	</codelistItem>
+	<!--=== GPLR_ConversionType ===-->
+	<codelistItem>
+		<CodeListDictionary gml:id="GPLR_ConversionType">
+			<gml:description>specify the processing mechanism used to convert geographic point location representations</gml:description>
+			<gml:identifier codeSpace="ISOTC211/19145">GPLR_ConversionType</gml:identifier>
+			<codeEntry>
+				<CodeDefinition gml:id="GPLR_ConversionType_static">
+					<gml:description>Offline process to perform a global conversion of a large amount of data.</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19145">static</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="GPLR_ConversionType_dynamic">
+					<gml:description>Online and real-time processing mechanism.</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19145">dynamic</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+		</CodeListDictionary>
+	</codelistItem>
+	<!--=== EOF ===-->
+</CT_CodelistCatalogue>

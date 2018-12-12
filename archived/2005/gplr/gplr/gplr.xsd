@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gplr="http://www.isotc211.org/2005/gplr" targetNamespace="http://www.isotc211.org/2005/gplr" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.1">
+	<!-- ================================= Annotation ================================ -->
+	<xs:annotation>
+		<xs:documentation>This file was generated from ISO19145 UML class diagrams </xs:documentation>
+	</xs:annotation>
+	<!-- ============================= Imports & Includes ============================ -->
+	<xs:include schemaLocation="../gplr/gplrRegister.xsd"/>
+	<!-- ########################################################################### -->
+</xs:schema>

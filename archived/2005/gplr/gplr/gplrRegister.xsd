@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:grg="http://www.isotc211.org/2005/grg" xmlns:gplr="http://www.isotc211.org/2005/gplr" targetNamespace="http://www.isotc211.org/2005/gplr" elementFormDefault="qualified" version="0.1">
+	<!-- ================================= Annotation ================================ -->
+	<xs:annotation>
+		<xs:documentation>This file was generated from ISO19145 UML class diagrams</xs:documentation>
+	</xs:annotation>
+	<!-- ============================= Imports & Includes ============================= -->
+	<xs:import namespace="http://www.isotc211.org/2005/gco" schemaLocation="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gco/gco.xsd"/>
+	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd"/>
+	<xs:import namespace="http://www.isotc211.org/2005/grg" schemaLocation="../grg/grg.xsd"/>
+	<!-- ########################################################################### -->
+	<!-- ########################################################################### -->
+	<!-- ================================== Classes ================================= -->
+	<!-- =========================================================================== -->
+	<xs:complexType name="GPLR_Register_Type">
+		<xs:annotation>
+			<xs:documentation>Information about and XML structure of the geographic point location register</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="grg:RE_Register_Type">
+				<xs:sequence>
+					<xs:element name="containedItem" type="gplr:GPLR_Item_PropertyType" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_Register" type="gplr:GPLR_Register_Type" substitutionGroup="grg:RE_Register"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_Register_PropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="gplr:GPLR_Register"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gco:ObjectReference"/>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<xs:complexType name="GPLR_Item_Type">
+		<xs:annotation>
+			<xs:documentation>Element of information recorded in the register</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="grg:RE_RegisterItem_Type">
+				<xs:sequence>
+					<xs:element name="gplrID" type="gco:CharacterString_PropertyType"/>
+					<xs:element name="specificationName" type="gmd:CI_Citation_PropertyType"/>
+					<xs:element name="version" type="gplr:GPLR_Version_PropertyType"/>
+					<xs:element name="legalConstraints" type="gmd:MD_LegalConstraints_PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="type" type="gplr:GPLR_RepresentationType_PropertyType"/>
+					<xs:element name="crsSupport" type="gplr:GPLR_CRSSupport_PropertyType"/>
+					<xs:element name="converter" type="gplr:GPLR_ConversionService_PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="compressionTechnique" type="gplr:GPLR_Compression_PropertyType" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_Item" type="gplr:GPLR_Item_Type" substitutionGroup="grg:RE_RegisterItem"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_Item_PropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="gplr:GPLR_Item"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gco:ObjectReference"/>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<xs:complexType name="GPLR_CRSSupport_Type">
+		<xs:annotation>
+			<xs:documentation>Information about the support of a coordinate reference system</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gco:AbstractObject_Type">
+				<xs:sequence>
+					<xs:element name="supported" type="gco:Boolean_PropertyType"/>
+					<xs:element name="fixed" type="gco:Boolean_PropertyType" minOccurs="0"/>
+					<xs:element name="crs" type="gmd:MD_ReferenceSystem_PropertyType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_CRSSupport" type="gplr:GPLR_CRSSupport_Type"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_CRSSupport_PropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="gplr:GPLR_CRSSupport"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gco:ObjectReference"/>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<xs:complexType name="GPLR_Method_Type">
+		<xs:annotation>
+			<xs:documentation>Elements that describe a method of an interface</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gco:AbstractObject_Type">
+				<xs:sequence>
+					<xs:element name="invocationName" type="gco:CharacterString_PropertyType"/>
+					<xs:element name="parameters" type="gco:RecordType_PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="returnValues" type="gco:RecordType_PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_Method" type="gplr:GPLR_Method_Type"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_Method_PropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="gplr:GPLR_Method"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gco:ObjectReference"/>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<xs:complexType name="GPLR_Interface_Type">
+		<xs:annotation>
+			<xs:documentation>Methods that compose the invocation interface</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gco:AbstractObject_Type">
+				<xs:sequence>
+					<xs:element name="method" type="gplr:GPLR_Method_PropertyType" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_Interface" type="gplr:GPLR_Interface_Type"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_Interface_PropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="gplr:GPLR_Interface"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gco:ObjectReference"/>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<xs:complexType name="GPLR_ConversionService_Type">
+		<xs:annotation>
+			<xs:documentation>Information about a conversion service</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gco:AbstractObject_Type">
+				<xs:sequence>
+					<xs:element name="name" type="gco:CharacterString_PropertyType"/>
+					<xs:element name="description" type="gco:CharacterString_PropertyType" minOccurs="0"/>
+					<xs:element name="uniformResourceIdentifier" type="gmd:CI_OnlineResource_PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="conversionType" type="gplr:GPLR_ConversionType_PropertyType"/>
+					<xs:element name="invocationInterface" type="gplr:GPLR_Interface_PropertyType" minOccurs="0"/>
+					<xs:element name="outFormat" type="gplr:GPLR_Item_PropertyType" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_ConversionService" type="gplr:GPLR_ConversionService_Type"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_ConversionService_PropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="gplr:GPLR_ConversionService"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gco:ObjectReference"/>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<xs:complexType name="GPLR_Compression_Type">
+		<xs:annotation>
+			<xs:documentation>Information about a compression technique</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gco:AbstractObject_Type">
+				<xs:sequence>
+					<xs:element name="name" type="gmd:CI_Citation_PropertyType"/>
+					<xs:element name="description" type="gco:CharacterString_PropertyType" minOccurs="0"/>
+					<xs:element name="version" type="gplr:GPLR_Version_PropertyType" minOccurs="0"/>
+					<xs:element name="compressionService" type="gmd:CI_OnlineResource_PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_Compression" type="gplr:GPLR_Compression_Type"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_Compression_PropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="gplr:GPLR_Compression"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gco:ObjectReference"/>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<xs:complexType name="GPLR_Version_Type">
+		<xs:annotation>
+			<xs:documentation>Information about a release of a resource</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="grg:RE_Version_Type">
+				<xs:sequence>
+					<xs:element name="amendmentNumber" type="gco:CharacterString_PropertyType" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_Version" type="gplr:GPLR_Version_Type" substitutionGroup="grg:RE_Version"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_Version_PropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="gplr:GPLR_Version"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gco:ObjectReference"/>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_RepresentationType" type="gco:CodeListValue_Type" substitutionGroup="gco:CharacterString"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_RepresentationType_PropertyType">
+		<xs:sequence>
+			<xs:element ref="gplr:GPLR_RepresentationType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+	<!-- ........................................................................ -->
+	<xs:element name="GPLR_ConversionType" type="gco:CodeListValue_Type" substitutionGroup="gco:CharacterString"/>
+	<!-- ........................................................................ -->
+	<xs:complexType name="GPLR_ConversionType_PropertyType">
+		<xs:sequence>
+			<xs:element ref="gplr:GPLR_ConversionType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute ref="gco:nilReason"/>
+	</xs:complexType>
+	<!-- =========================================================================== -->
+</xs:schema>
