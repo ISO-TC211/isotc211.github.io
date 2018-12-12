@@ -7,8 +7,11 @@ env:
   global:
 before_install:
   - travis_retry sudo apt-get update
-  - travis_retry sudo apt-get install -y curl git make
+  - travis_retry sudo apt-get install -y curl git make ruby-bundler ruby-dev libxml2-dev libxslt-dev npm
+  - travis_retry gem install bundler
+  - travis_retry gem install nokogiri -v '1.8.5'
 before_script:
+  - bundle
   - make update-init update-modules
 script:
   - make _site

@@ -1,0 +1,104 @@
+---
+layout: page
+---
+= Strategic Policy Statement
+
+Version 1.1
+
+== Excerpt from ISO/IEC Directives Part 1 :
+
+=== 2.1.1 Strategic policy statement
+
+Each technical committee shall prepare a strategic policy statement for its own specific field of activity,
+
+a) taking into account the business environment in which it is developing its work programme;
+
+b) indicating those areas of the work programme which are expanding, those which have been completed, and those nearing completion or in steady progress, and those which have not progressed and should be deleted (see also 2.1.8);
+
+c) evaluating revision work needed (see also 2.9);
+
+d) giving a prospective view on emerging needs.
+
+The statement shall be formally agreed upon by the technical committee and be included in its report for review by the Technical Management Board on a regular basis.
+
+NOTE: The present version contains only small changes to the previous text (ISO/TC 211 N 219). A couple of paragraphs have been added
+
+
+== Introduction
+
+This statement has been prepared by ISO/TC 211 Geographic information/Geomatics to describe the strategic objectives of standardization in the field of geographic information and geomatics.
+
+== Background
+
+The field of geographic information and geomatics (see definitions below) is a rapidly growing and important part of the information society. From being a highly vertical application area, there is now a clear trend to development into horizontal markets with an extensive range of applications in government, business and research.
+
+As a part of the global information infrastructure (GII) this field will share technologies with other application areas, and the task of ISO/TC 211 is those areas which is specific to spatially related applications.
+
+The ancient predecessor of geomatics is one of the oldest areas of science, as well as one where requirements for standardization have been recognized for hundreds of years. The earliest known maps were drawn by the Babylonians in 2500 BC, and for centuries mapping and mathematics went hand in hand, with names like Ptolemy and Eratosthenes. Later, the great explorers were the driving forces behind mapping science, so that a proud tradition lies behind today's geomatics activities.
+
+Long before the introduction of digital, or computer, techniques, it was recognized that, to ease interpretation and understanding of a map, the visual presentation needed to be uniform and homogeneous. By the introduction of computerized methods in the 1960s, first for automating the map-making process, then later as a means of analyzing the spatial aspects of information, it became even more necessary to agree upon a description of content and format of data. Data had at this point to be transferred from a computer system at the producer end to another system at the user end ­ and yet both had to interpret the data into information and knowledge in the same way.
+
+Many countries have initiated efforts over the last 10 to 15 years to produce national standards, especially as concerns the transfer of digital geographic information between users with different computer systems and environments.
+
+== The business case for geographic information
+
+Geographic information is for multi-disciplinary use, meaning that it is used as a tool in virtually every conceivable field. Research has shown, for instance, that 80 % of all work undertaken in the public sector at national, regional or local level has some spatial or geographical aspect or application. The public sector is still the main consumer of geographic information and tools, but in the last few years the impact in the private sector has been growing. Analysts claim that geographic information technology is one the fastest expanding fields of information technology as a whole, and within this, the private sector is now increasing most rapidly of all.
+
+ISO/TC 211 standards will be used by people with a variety of backgrounds and objectives : from the highly experienced developer working within a software developing company, to the non-experienced end user of a desktop mapping package, from the GIS analyst within a national mapping agency to the marketing department of a commercial service provider.
+
+The ISO/TC 211 standards shall support the existing and forthcoming efforts to build geographic information infrastructures. In the recent years we have seen such efforts on a national basis by many countries, but more and more the building of information infrastructures is a global, or at least a regional, task. ISO/TC 211 should contribute to the spatial aspects of the content of information infrastructures. This must be done in close cooperation with more general aspects of global information infrastructures (GII). ISO/TC 211 will, therefore, take active part in the ISO/IEC/ITU work on GII.
+
+You will find the application of geographic information in just about every area from banking and finance to tourism and travel. There are, of course, certain domains where that use is more important than in others at present. To mention a few: transport and fleet management; utility and cable networks; natural resources and environmental control.
+
+Marketing is emerging as one of the many important new application areas in the private sector, as addresses and postal codes are digitized and spatial references with the aid of coordinates developed. Think of a business with a huge customer base where every customer has a known address; when you also have coordinates for these addresses, and are in a position to put your customers on a map, you can then start making an analysis. Where, you might ask, are my bad customers, those who don't pay, or, pay late? If a geographical tendency or spread emerges, you can start asking why. Where are my customers in relation to my regional offices? It could be that some offices should be closed down. In other areas, maybe I should rather build up the services I provide. GIS (geographic information system) is now used daily for such purposes -­ by really large enterprises as well as small ones that can all take full advantage of technological progress.
+
+== Organization of work
+
+The scope of ISO/TC 211 is:
+
+[quote]
+____
+Standardization in the field of digital geographic information. This work aims to establish a structured set of standards for information concerning objects or phenomena that are directly or indirectly associated with a location relative to the Earth.
+
+These standards may specify, for geographic information, methods, tools and services for data management (including definition and description), acquiring, processing, analyzing, accessing, presenting and transferring such data in digital / electronic form between different users, systems and locations.
+
+The work shall link to appropriate standards for information technology and data where possible, and provide a framework for the development of sector-specific applications using geographic data.
+____
+
+The committee defines *geographic information* as "`_information concerning phenomena directly or indirectly associated with a location relative to the surface of the Earth_`" and *geomatics* as "`_(discipline) concerned with the collection, storage, analysis, processing, presentation and distribution of geographic data_`" and, finally, *geographic data* as "`_data describing phenomena directly or indirectly associated with a location relative to the surface of the Earth_`".
+
+The scope is wide and justifies work within all presently conceived areas of user interest and requirements. The current work programme, consisting of 20 work items, identifies the fundamental set of base standards within the field.
+
+The work of ISO/TC 211 is divided among five working groups :
+
+=== WG 1 - Framework and reference model
+
+Work items allocated to WG 1 : Reference Model, Overview, Conceptual Schema Language, Terminology, Conformance and Testing.
+
+=== WG 2 - Geospatial data models and operators
+
+Work items allocated to WG 2 : Spatial Subschema, Temporal Subschema, Rules for Application Schema, Spatial Operators.
+
+=== WG 3 - Geospatial data administration
+
+Work items allocated to WG 3 : Cataloguing, Geodetic Reference Systems, Indirect Reference Systems, Quality, Quality Evaluation Procedures, Metadata.
+
+=== WG 4 - Geospatial services
+
+Work items allocated to WG 4 : Positioning Services, Portrayal of Geographic Information, Encoding, Services.
+
+=== WG 5 - Profiles and functional standards
+
+Work items allocated to WG 5 : Profiles.
+
+New work items within the fields of profiles and products descriptions are being worked out.
+
+== Current and close future needs
+
+The key issue for GIS in the close future is interoperability in the sense of interoperability across technologies, systems and application fields. As a horizontal application area the importance of integration with other enterprise information systems will continue to grow raising high requirements for standards development.
+
+The long maturing of the field of geomatics and the great multi-disciplinary growth demand for a broad approach to standards. The challenge is to keep a manageable programme of work, and to be able to utilize and harmonize with existing and more general work of standardization.
+
+The committee also recognize the importance of harmonizing with functional standardization work within the field (here in the meaning of de facto work), both because of the long term efforts and intellectual investments, and because more and more data is produced and available according to these standards. Harmonization is achieved through the liaison mechanism and close cooperation.
+
+ISO/TC 211 also emphasizes a close cooperation with the European corresponding committee, CEN/TC 287 Geographic information, and will maintain on a regular basis an agreement with CEN/TC 287 on roles, distribution of work and formal procedures.

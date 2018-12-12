@@ -1,0 +1,22 @@
+---
+layout: page
+title: About ISO/TC 211
+permalink: /about/
+---
+
+== Scope
+
+Standardization in the field of digital geographic information.
+This work aims to establish a structured set of standards for information concerning objects or phenomena that are directly or indirectly associated with a location relative to the Earth.
+
+These standards may specify, for geographic information, methods, tools and services for data management (including definition and description), acquiring, processing, analyzing, accessing, presenting and transferring such data in digital/electronic form between different users, systems and locations.
+
+The work shall link to appropriate standards for information technology and data where possible, and provide a framework for the development of sector-specific applications using geographic data.
+
+== Domaine des travaux
+
+Normalisation dans le domaine de l'information géographique numérique.
+
+Ces travaux visent à établir un ensemble structuré de normes relatives à l'information sur les objets ou les phénomènes qui sont directement ou indirectement associés à une localisation terrestre. Ces normes peuvent spécifier, pour l'information géographique, des méthodes, outils et services pour la gestion de données (y compris leur définition et leur description), l'acquisition, le traitement, l'analyse, l'accès, la présentation et le transfert de ces données sous forme numérique / électronique entre les différents utilisateurs, systèmes et sites.
+
+Les travaux devront être liés aux normes sur les technologies de l'information et les données et fournir un cadre pour le développement d'applications sectorielles utilisant des données géographiques.

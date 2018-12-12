@@ -6,11 +6,10 @@ clean:
 	rm -rf _site
 
 _site:
-	mkdir -p $@; \
-	cp -a index.html $@; \
-	cp -a archived/2005 $@; \
-	mkdir -p $@/hmmg && \
-	cp -a hmmg-html/* $@/hmmg
+	bundle exec jekyll build -w --incremental
+
+serve:
+	bundle exec jekyll serve
 
 update-init:
 	git submodule update --init
@@ -18,4 +17,4 @@ update-init:
 update-modules:
 	git submodule foreach git pull origin master
 
-.PHONY: all update-init update-modules
+.PHONY: all clean serve update-init update-modules

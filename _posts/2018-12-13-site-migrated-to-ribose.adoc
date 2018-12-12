@@ -1,0 +1,9 @@
+---
+layout: post
+title:  ISO/TC 211 site migration completed!
+date:   2018-12-13 01:41:20 +0800
+categories: site update
+---
+The ISO/TC 211 resources site have been migrated from the Norweigian Mapping Agency, Kartvetket, to Ribose.
+
+The site migration has been completed and stay tuned for improvements!
