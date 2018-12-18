@@ -20,20 +20,26 @@ The https://github.com/ISO-TC211/HMMG[GitHub repository] for the ISO/TC 211 Harm
 
 == XML Schemas (XMG)
 
-The ISO/TC 211 XML Schema repository is located at http://standards.iso.org/iso.
+ISO/TC 211 XML Schemas are located in two places:
 
-Each part of each standard has a directory like: http://standards.iso.org/iso/StandardNumber/PartNumber/NamespacePrefix/Version.
+* ISO/TC 211: https://schemas.isotc211.org
+
+* ISO: https://standards.iso.org/iso
+
+Each part of each standard has a directory in this format
+`StandardNumber/PartNumber/NamespacePrefix/Version`.
 
 XML Schemas are provided under the "2005/" directory, as referred by ISO/TC 211 standards, including:
 
 * ISO/TS 19157-2
 * ISO/TS 19139
 
-NOTE: Example: http://standards.iso.org/iso/19115/-3/cit/1.0 or http://standards.iso.org/iso/19157/-2/mdq/1.0.
-
-Comments, suggestions, change requests and revisions are managed in the https://github.com/ISO-TC211/XML[GitHub repository] for the ISO/TC 211 XML Maintenance Group (XMG)
+NOTE: Example: https://schemas.isotc211.org/19115/-3/cit/1.0 (or http://standards.iso.org/iso/19115/-3/cit/1.0)
+; https://schemas.isotc211.org/19157/-2/mdq/1.0 (or http://standards.iso.org/iso/19157/-2/mdq/1.0).
 
 
 == Ontologies (GOM)
+
+ISO/TC 211 Ontologies are located at https://def.isotc211.org
 
 Ontology representations of the ISO/TC 211 Standards are maintained in the https://github.com/ISO-TC211/GOM[GitHub repository] for the ISO/TC 211 Group on Ontology Management (GOM).
