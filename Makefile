@@ -5,8 +5,14 @@ all: _site
 clean:
 	rm -rf _site
 
-_site:
+_site: hmmg/HTML/ConceptualModels/index.html hmmg/HTML/ImplementationModels/index.html
 	bundle exec jekyll build
+
+hmmg/HTML/ConceptualModels/index.html:
+	cp $(patsubst %.html,%.htm,$@) $@
+
+hmmg/HTML/ImplementationModels/index.html:
+	cp $(patsubst %.html,%.htm,$@) $@
 
 serve:
 	bundle exec jekyll serve
