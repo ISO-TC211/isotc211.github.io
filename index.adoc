@@ -56,3 +56,35 @@ NOTE: Example: https://schemas.isotc211.org/19115/-3/cit/1.0 (or http://standard
 ISO/TC 211 Ontologies are located at https://def.isotc211.org
 
 Ontology representations of the ISO/TC 211 Standards are maintained in the https://github.com/ISO-TC211/GOM[GitHub repository] for the ISO/TC 211 Group on Ontology Management (GOM).
+
+++++
+<template id="schemaLocator">
+  <form>
+    <div class="input">
+      <label for="schemaStandardNumber">Standard number</label>
+      <input id="schemaStandardNumber" type="text" placeholder="For example, 19115" name="standardNumber">
+    </div>
+    <div class="input">
+      <label for="schemaPartNumber">Part number</label>
+      <input id="schemaPartNumber" type="text" placeholder="3" name="partNumber">
+    </div>
+    <div class="input">
+      <label for="schemaNsPrefix">Namespace prefix</label>
+      <input id="schemaNsPrefix" type="text" placeholder="cit" name="nsPrefix">
+    </div>
+    <div class="input">
+      <label for="schemaVersion">Version</label>
+      <input id="schemaVersion" type="text" placeholder="1.0" name="version">
+    </div>
+    <div class="actions">
+      <button type="submit" name="locate">Locate schema</button>
+      <button type="submit" name="locateIso">Locate on ISO site</button>
+    </div>
+  </form>
+</template>
+
+<template id="ontologyLocator">
+</template>
+
+<script src="{{ "/assets/browser.js" | relative_url }}"></script>
+++++
