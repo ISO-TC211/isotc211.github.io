@@ -77,13 +77,34 @@ Ontology representations of the ISO/TC 211 Standards are maintained in the https
       <input id="schemaVersion" type="text" placeholder="1.0" name="version">
     </div>
     <div class="actions">
-      <button type="submit" name="locate">Locate schema</button>
-      <button type="submit" name="locateIso">Locate on ISO site</button>
+      <button type="button" name="locate">Locate schema</button>
+      <button type="button" name="locateIso">Locate on ISO site</button>
     </div>
   </form>
 </template>
 
 <template id="ontologyLocator">
+  <form>
+    <div class="input">
+      <label for="ontologyStandardNumber">Standard number</label>
+      <input id="ontologyStandardNumber" type="text" placeholder="For example, 19101" name="standardNumber">
+    </div>
+    <div class="input">
+      <label for="ontologyPartNumber">Part number</label>
+      <input id="ontologyPartNumber" type="text" placeholder="2" name="partNumber">
+    </div>
+    <div class="input">
+      <label for="ontologyYear">Year</label>
+      <input id="ontologyYear" type="text" placeholder="2008" name="year">
+    </div>
+    <div class="input">
+      <label for="ontologyVersion">Version</label>
+      <input id="ontologyVersion" type="text" placeholder="catalog-v001.xml" name="version">
+    </div>
+    <div class="actions">
+      <button type="button" name="locate">Locate ontology</button>
+    </div>
+  </form>
 </template>
 
 <script src="{{ "/assets/browser.js" | relative_url }}"></script>

@@ -27,16 +27,13 @@
       const template = document.querySelector('#schemaLocator');
       let el = document.importNode(template.content, true);
 
-      this.form = el;
+      this.form = el.children[0];
       this.form.querySelector('button[name=locate]').
         addEventListener('click', this.handleLocateClick);
       this.form.querySelector('button[name=locateIso]').
         addEventListener('click', this.handleLocateIsoClick);
 
       return el;
-    }
-    getInputValue(inputName) {
-      return this.form.querySelector(`input[name=${inputName}]`).value;
     }
     getFormValues() {
       return {
@@ -46,11 +43,13 @@
         version: this.getInputValue('version'),
       };
     }
-    handleLocateClick() {
+    handleLocateClick(evt) {
+      evt.preventDefault();
       window.location.href = `https://schemas.isotc211.org/${getSchemaPath(this.getFormValues())}`;
     }
-    handleLocateIsoClick() {
-      window.location.href = `https://standards.iso.org/${getSchemaPath(this.getFormValues())}`;
+    handleLocateIsoClick(evt) {
+      evt.preventDefault();
+      window.location.href = `https://standards.iso.org/iso/${getSchemaPath(this.getFormValues())}`;
     }
   }
 
@@ -63,7 +62,7 @@
       const template = document.querySelector('#ontologyLocator');
       let el = document.importNode(template.content, true);
 
-      this.form = el;
+      this.form = el.children[0];
       this.form.querySelector('button[name=locate]').
         addEventListener('click', this.handleLocateClick);
 
@@ -77,11 +76,20 @@
         version: this.getInputValue('version'),
       };
     }
-    handleLocateClick() {
+    handleLocateClick(evt) {
+      evt.preventDefault();
       window.location.href = `https://def.isotc211.org/${getOntologyPath(this.getFormValues())}`;
     }
   }
 
-  document.querySelector('.section.ontologies > h2').nextSibling.insertBefore((new OntologyLocator).render());
+  let ontologyHeader = document.querySelector('.section.ontologies > h2');
+  ontologyHeader.parentNode.insertBefore(
+    (new OntologyLocator).render(),
+    ontologyHeader.nextSibling);
+
+  let schemaHeader = document.querySelector('.section.xmlschemas > h2');
+  schemaHeader.parentNode.insertBefore(
+    (new SchemaLocator).render(),
+    schemaHeader.nextSibling);
 
 }());
