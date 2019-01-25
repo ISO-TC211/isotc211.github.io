@@ -3,6 +3,18 @@
 
 @import 'jekyll-theme-isotc211';
 
+// Asciidoctor-generated HTML styling
+
+body > main {
+  .admonitionblock {
+    td.icon {
+      vertical-align: top;
+      padding-right: 1em;
+      font-weight: bold;
+    }
+  }
+}
+
 body.home {
   .section.ontologies {
     background: peach;
