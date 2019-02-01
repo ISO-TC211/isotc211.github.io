@@ -1,0 +1,72 @@
+---
+---
+
+@import 'jekyll-theme-isotc211';
+
+// Asciidoctor-generated HTML styling
+
+body > main {
+  .admonitionblock {
+    td.icon {
+      vertical-align: top;
+      padding-right: 1em;
+      font-weight: bold;
+    }
+  }
+}
+
+body.home {
+  .section.ontologies {
+    background: peach;
+  }
+
+  .section.ontologies, .section.xmlschemas {
+    form {
+      font-size: 90%;
+
+      display: flex;
+      flex-flow: row wrap;
+      margin-bottom: 1em;
+      align-items: flex-end;
+
+      input,
+      button {
+        background-color: #f7f7f7;
+        padding: .5em .75em;
+        border-radius: .5em;
+        border: 0;
+        cursor: pointer;
+        margin-left: -.5em;
+        line-height: inherit;
+      }
+
+      .input, .actions {
+        margin-right: 1em;
+        margin-bottom: 1em;
+      }
+
+      .input {
+        display: flex;
+        flex-flow: column nowrap;
+
+        label {
+          margin-bottom: .5em;
+
+          &:after {
+            content: ":";
+          }
+        }
+      }
+
+      .actions {
+        button {
+          margin-right: .5em;
+        }
+      }
+
+      margin-left: $sideOffsetBase;
+      margin-right: $sideOffsetBase;
+
+    }
+  }
+}
