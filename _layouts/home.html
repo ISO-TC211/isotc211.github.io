@@ -1,0 +1,19 @@
+---
+layout: default
+bodyClass: home
+---
+
+{{ content }}
+
+<section class="news">
+  <h2 class="section-title">News</h2>
+
+  <div class="items">
+    {% for post in site.posts %}
+      <article class="news-item-card">
+        <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="excerpt">{{ post.excerpt }}</div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

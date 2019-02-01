@@ -1,23 +1,35 @@
 ---
 layout: home
 permalink: /
+nav_items: [about, strategic-policy]
 ---
+:page-liquid:
+
+
+[.section]
 == General
 
-This page contain links to resources for accessing and using models and schemas from the ISO/TC 211 Standards.
+This page contain links to resources for accessing and using models and schemas
+from the ISO/TC 211 Standards.
 
-For more information, please visit the https://committee.iso.org/home/tc211[ISO/TC 211 committee page].
+For more information,
+please visit the https://committee.iso.org/home/tc211[ISO/TC 211 committee page].
 
+
+[.section]
 == UML Models (HMMG)
 
-HTML views of the Harmonized UML Model are available for:
+Browse HTML views of the Harmonized UML Model:
 
 * link:hmmg/HTML/ConceptualModels/[Conceptual models]; and
 * link:hmmg/HTML/ImplementationModels/[Implementation Models].
 
-The https://github.com/ISO-TC211/HMMG[GitHub repository] for the ISO/TC 211 Harmonized Model Maintenance Group (HMMG) contains model files, information about the Harmonized Model, and https://github.com/ISO-TC211/HMMG/wiki[how to work with it].
+The https://github.com/ISO-TC211/HMMG[GitHub repository]
+for the ISO/TC 211 Harmonized Model Maintenance Group (HMMG) contains model files,
+information about the Harmonized Model, and https://github.com/ISO-TC211/HMMG/wiki[how to work with it].
 
 
+[.section.xmlschemas]
 == XML Schemas (XMG)
 
 ISO/TC 211 XML Schemas are located in two places:
@@ -38,8 +50,62 @@ NOTE: Example: https://schemas.isotc211.org/19115/-3/cit/1.0 (or http://standard
 ; https://schemas.isotc211.org/19157/-2/mdq/1.0 (or http://standards.iso.org/iso/19157/-2/mdq/1.0).
 
 
+[.section.ontologies]
 == Ontologies (GOM)
 
 ISO/TC 211 Ontologies are located at https://def.isotc211.org
 
 Ontology representations of the ISO/TC 211 Standards are maintained in the https://github.com/ISO-TC211/GOM[GitHub repository] for the ISO/TC 211 Group on Ontology Management (GOM).
+
+++++
+<template id="schemaLocator">
+  <form>
+    <div class="input">
+      <label for="schemaStandardNumber">Standard number</label>
+      <input id="schemaStandardNumber" type="text" placeholder="For example, 19115" name="standardNumber">
+    </div>
+    <div class="input">
+      <label for="schemaPartNumber">Part number</label>
+      <input id="schemaPartNumber" type="text" placeholder="3" name="partNumber">
+    </div>
+    <div class="input">
+      <label for="schemaNsPrefix">Namespace prefix</label>
+      <input id="schemaNsPrefix" type="text" placeholder="cit" name="nsPrefix">
+    </div>
+    <div class="input">
+      <label for="schemaVersion">Version</label>
+      <input id="schemaVersion" type="text" placeholder="1.0" name="version">
+    </div>
+    <div class="actions">
+      <button type="button" name="locate">Locate schema</button>
+      <button type="button" name="locateIso">Locate on ISO site</button>
+    </div>
+  </form>
+</template>
+
+<template id="ontologyLocator">
+  <form>
+    <div class="input">
+      <label for="ontologyStandardNumber">Standard number</label>
+      <input id="ontologyStandardNumber" type="text" placeholder="For example, 19101" name="standardNumber">
+    </div>
+    <div class="input">
+      <label for="ontologyPartNumber">Part number</label>
+      <input id="ontologyPartNumber" type="text" placeholder="2" name="partNumber">
+    </div>
+    <div class="input">
+      <label for="ontologyYear">Year</label>
+      <input id="ontologyYear" type="text" placeholder="2008" name="year">
+    </div>
+    <div class="input">
+      <label for="ontologyVersion">Version</label>
+      <input id="ontologyVersion" type="text" placeholder="catalog-v001.xml" name="version">
+    </div>
+    <div class="actions">
+      <button type="button" name="locate">Locate ontology</button>
+    </div>
+  </form>
+</template>
+
+<script src="{{ "/assets/browser.js" | relative_url }}"></script>
+++++

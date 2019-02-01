@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: /strategic-policy/
+nav_items: [about]
 ---
 = Strategic Policy Statement
 
