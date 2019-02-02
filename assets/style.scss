@@ -5,12 +5,29 @@
 
 // Asciidoctor-generated HTML styling
 
+
+body > header {
+  .site-headline {
+    .site-title {
+      h1 {
+        font-size: 170%;
+        margin-top: 1.4em;
+      }
+      p {
+        display: none;
+      }
+    }
+  }
+}
 body > main {
   .admonitionblock {
     td.icon {
       vertical-align: top;
       padding-right: 1em;
       font-weight: bold;
+    }
+    .content {
+      word-break: break-word;
     }
   }
 }
