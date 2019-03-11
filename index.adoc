@@ -7,16 +7,6 @@ nav_items: [about, strategic-policy]
 
 
 [.section]
-== General
-
-This page contain links to resources for accessing and using models and schemas
-from the ISO/TC 211 Standards.
-
-For more information,
-please visit the https://committee.iso.org/home/tc211[ISO/TC 211 committee page].
-
-
-[.section]
 == UML Models (HMMG)
 
 Browse HTML views of the Harmonized UML Model:
