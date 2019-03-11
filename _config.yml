@@ -1,12 +1,18 @@
 title: Resource site for ISO/TC 211 Geographic information/Geomatics
-title_html: Resource site for&nbsp;ISO/TC&nbsp;211 Geographic&nbsp;information/&#8203;Geomatics
+title_html: TC&nbsp;211 Resources
+
+committee:
+  id: 211
+  name: Geographic information/Geomatics
+  link: https://committee.iso.org/home/tc211
 
 email: open.source@ribose.com
 
 description: >-
   Resource site for ISO/TC 211 Geographic information/Geomatics
 
-tagline: ""
+tagline: >-
+  Links to resources for accessing and using standard models and schemas
 
 baseurl: ""
 url: "https://www.isotc211.org"
