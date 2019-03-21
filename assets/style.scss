@@ -7,6 +7,53 @@
 
 
 body.home {
+  section.resource-row {
+    margin: 0 15vw;
+
+    @media screen and (min-width: $bigscreenBreakpoint) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: stretch;
+    }
+    > .resource {
+      flex: 1;
+      padding: 0 0 1em 1em;
+      display: flex;
+      flex-flow: column nowrap;
+
+      .wg {
+        margin-top: -1em;
+        text-transform: lowercase;
+
+        abbr {
+          text-transform: uppercase;
+          text-decoration: none;
+          cursor: help;
+        }
+      }
+
+      .wg, h3 {
+        text-align: center;
+      }
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      .main-links {
+        flex: 1;
+        a {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+
+
+body.home {
   .section.ontologies {
     background: peach;
   }
