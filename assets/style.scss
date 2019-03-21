@@ -7,6 +7,20 @@
 
 
 body.home {
+  section.awards {
+    margin: 0 15vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    .award {
+      img {
+        display: block;
+        width: 10em;
+      }
+    }
+  }
+
   section.resource-row {
     margin: 0 15vw;
 

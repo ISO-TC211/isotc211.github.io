@@ -1,0 +1,23 @@
+---
+layout: post
+title: TC 211 wins 2010 ISO excellence award
+illustration: "/assets/2010-iso-excellence-award.jpg"
+date: 2010-09-16 00:00:00 +0000
+categories: award
+excerpt: ""
+---
+
+ISO/TC 211 has won the 2010 ISO excellence award. Quoting https://www.iso.org/news/2010/09/Ref1354.html[the press release from ISO.org]:
+
+[quote, Geraldine Tan, ISO press release]
+____
+Every year, the award acknowledges superior performance by one of ISO’s standards development groups.
+
+<…>
+
+The 2010 award has gone to ISO technical committee ISO/TC 211.
+
+<…>
+
+The Lawrence D. Eicher Leadership Award is named after the late Secretary-General of ISO from 1986 to 2002.
+____
