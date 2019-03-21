@@ -8,63 +8,63 @@ nav_items: [about, strategic-policy]
 
 ++++
 <section class="resource-row">
-<article class="resource">
-  <h3>UML Models</h3>
-  <div class="wg">By <abbr title="ISO/TC 211 Harmonized Model Maintenance Group">HMMG</abbr></div>
+  <article class="resource">
+    <h3>UML Models</h3>
+    <div class="wg">By <abbr title="ISO/TC 211 Harmonized Model Maintenance Group">HMMG</abbr></div>
 
-  <div class="main-links">
-    <p>
-    Browse HTML views of the Harmonized UML Model:
+    <div class="main-links">
+      <p>
+      Browse HTML views of the Harmonized UML Model:
 
-    <ul>
-      <li><a href="/hmmg/HTML/ConceptualModels/">Conceptual models</a>; and
-      <li><a href="/hmmg/HTML/ImplementationModels/">Implementation Models</a>.
-    </ul>
-  </div>
+      <ul>
+        <li><a href="/hmmg/HTML/ConceptualModels/">Conceptual models</a>; and
+        <li><a href="/hmmg/HTML/ImplementationModels/">Implementation Models</a>.
+      </ul>
+    </div>
 
-  <div class="source-links">
-    <p>
-    Source: <a href="https://github.com/ISO-TC211/HMMG">GitHub&nbsp;repository</a>
-    contains model files and information about the Harmonized&nbsp;Model.
-    Wiki explains <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
-  </div>
-</article>
+    <div class="source-links">
+      <p>
+      Source: <a href="https://github.com/ISO-TC211/HMMG">GitHub&nbsp;repository</a>
+      contains model files and information about the Harmonized&nbsp;Model.
+      Wiki explains <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
+    </div>
+  </article>
 
-<article class="resource">
-  <h3>XML Schemas</h3>
-  <div class="wg">By <abbr title="ISO/TC 211 XML Maintenance Group">XMG</abbr></div>
+  <article class="resource">
+    <h3>XML Schemas</h3>
+    <div class="wg">By <abbr title="ISO/TC 211 XML Maintenance Group">XMG</abbr></div>
 
-  <div class="main-links">
-    <p>
-    ISO/TC&nbsp;211&nbsp;XML&nbsp;schemas are located in two places:
+    <div class="main-links">
+      <p>
+      ISO/TC&nbsp;211&nbsp;XML&nbsp;schemas are located in two places:
 
-    <ul>
-      <li><a href="https://schemas.isotc211.org">ISO/TC 211 XML schema repository</a>
-      <li><a href="https://standards.iso.org/iso">ISO site</a>
-    </ul>
-  </div>
-  <div class="source-links">
-    <p>
-    Source: <a href="https://github.com/ISO-TC211/XML">GitHub&nbsp;repository</a>
-    contains XML&nbsp;schema&nbsp;representations of&nbsp;ISO/TC&nbsp;211&nbsp;standards.
-  </div>
-</article>
+      <ul>
+        <li><a href="https://schemas.isotc211.org">ISO/TC 211 XML schema repository</a>
+        <li><a href="https://standards.iso.org/iso">ISO site</a>
+      </ul>
+    </div>
+    <div class="source-links">
+      <p>
+      Source: <a href="https://github.com/ISO-TC211/XML">GitHub&nbsp;repository</a>
+      contains XML&nbsp;schema&nbsp;representations of&nbsp;ISO/TC&nbsp;211&nbsp;standards.
+    </div>
+  </article>
 
-<article class="resource">
-  <h3>Ontologies</h3>
-  <div class="wg">By <abbr title="ISO/TC 211 Group on Ontology Management">GOM</abbr></div>
+  <article class="resource">
+    <h3>Ontologies</h3>
+    <div class="wg">By <abbr title="ISO/TC 211 Group on Ontology Management">GOM</abbr></div>
 
-  <div class="main-links">
-    <p>
-    ISO/TC&nbsp;211&nbsp;ontologies are located in the <a href="https://def.isotc211.org">Ontology repository</a>.
-  </div>
+    <div class="main-links">
+      <p>
+      ISO/TC&nbsp;211&nbsp;ontologies are located in the <a href="https://def.isotc211.org">Ontology repository</a>.
+    </div>
 
-  <div class="source-links">
-    <p>
-    Source: <a href="https://github.com/ISO-TC211/GOM">GitHub&nbsp;repository</a>
-    contains Ontology representations of&nbsp;the&nbsp;ISO/TC&nbsp;211&nbsp;standards.
-  </div>
-</article>
+    <div class="source-links">
+      <p>
+      Source: <a href="https://github.com/ISO-TC211/GOM">GitHub&nbsp;repository</a>
+      contains Ontology representations of&nbsp;the&nbsp;ISO/TC&nbsp;211&nbsp;standards.
+    </div>
+  </article>
 </section>
 ++++
 
