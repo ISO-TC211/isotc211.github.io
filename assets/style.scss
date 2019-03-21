@@ -18,9 +18,17 @@ body.home {
     }
     > .resource {
       flex: 1;
-      padding: 0 0 1em 1em;
+      padding-bottom: 1em;
       display: flex;
       flex-flow: column nowrap;
+
+      @media screen and (min-width: $bigscreenBreakpoint) {
+        padding-left: 1em;
+
+        &:first-child {
+          padding-left: 0;
+        }
+      }
 
       .wg {
         margin-top: -1em;
@@ -35,10 +43,6 @@ body.home {
 
       .wg, h3 {
         text-align: center;
-      }
-
-      &:first-child {
-        padding-left: 0;
       }
 
       .main-links {
