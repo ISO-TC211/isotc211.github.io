@@ -46,17 +46,16 @@ body.home {
 
       .wg {
         margin-top: -1em;
-        text-transform: lowercase;
 
         abbr {
-          text-transform: uppercase;
           text-decoration: none;
           cursor: help;
         }
       }
 
-      .wg, h3 {
-        text-align: center;
+      h3 {
+        font-size: 160%;
+        font-weight: normal;
       }
 
       .main-links {
