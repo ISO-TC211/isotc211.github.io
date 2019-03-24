@@ -10,7 +10,7 @@ nav_items: [about, strategic-policy]
 <section class="resource-row">
   <article class="resource">
     <h3>UML Models</h3>
-    <div class="wg">By ISO/TC 211 <abbr title="Harmonized Model Maintenance Group">HMMG</abbr></div>
+    <div class="wg">By <abbr title="Harmonized Model Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 HMMG</abbr></div>
 
     <div class="main-links">
       <p>
@@ -32,7 +32,7 @@ nav_items: [about, strategic-policy]
 
   <article class="resource">
     <h3>XML Schemas</h3>
-    <div class="wg">By ISO/TC 211 <abbr title="XML Maintenance Group">XMG</abbr></div>
+    <div class="wg">By <abbr title="XML Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 XMG</abbr></div>
 
     <div class="main-links">
       <p>
@@ -52,7 +52,7 @@ nav_items: [about, strategic-policy]
 
   <article class="resource">
     <h3>Ontologies</h3>
-    <div class="wg">By ISO/TC 211 <abbr title="Group on Ontology Management">GOM</abbr></div>
+    <div class="wg">By <abbr title="Group on Ontology Management from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 GOM</abbr></div>
 
     <div class="main-links">
       <p>
