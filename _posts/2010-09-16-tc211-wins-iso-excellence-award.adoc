@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TC 211 wins 2010 ISO excellence award
+title: TC 211 wins ISO excellence award
 illustration: "/assets/2010-iso-excellence-award.jpg"
 date: 2010-09-16 00:00:00 +0000
 categories: award
