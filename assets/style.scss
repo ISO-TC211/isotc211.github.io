@@ -7,22 +7,8 @@
 
 
 body.home {
-  section.awards {
-    margin: 0 15vw;
-
-    display: flex;
-    flex-flow: row nowrap;
-
-    .award {
-      img {
-        display: block;
-        width: 10em;
-      }
-    }
-  }
-
   section.resource-row {
-    margin: 0 15vw;
+    padding: 0 15vw;
 
     @media screen and (min-width: $bigscreenBreakpoint) {
       display: flex;
@@ -30,6 +16,7 @@ body.home {
       justify-content: center;
       align-items: stretch;
     }
+
     > .resource {
       flex: 1;
       padding-bottom: 1em;

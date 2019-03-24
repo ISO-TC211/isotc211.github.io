@@ -19,6 +19,10 @@ url: "https://www.isotc211.org"
 
 theme: jekyll-theme-isotc211
 
+awards:
+  - title: Lawrence D. Eicher Leadership Award
+    path: /award/2010/09/16/tc211-wins-iso-excellence-award/
+
 social:
   links:
     - url: https://twitter.com/ISOTC211
