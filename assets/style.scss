@@ -23,6 +23,10 @@ body.home {
       display: flex;
       flex-flow: column nowrap;
 
+      ul {
+        padding-left: 1em;
+      }
+
       @media screen and (min-width: $bigscreenBreakpoint) {
         padding-left: 1em;
 
