@@ -46,6 +46,9 @@ nav:
   about:
     url: /about
     title: About ISO/TC 211
+  faq:
+    url: /faq
+    title: FAQ
   strategic-policy:
     url: /strategic-policy
     title: Strategic Policy Statement
@@ -65,4 +68,5 @@ exclude:
 header_pages:
   - home.adoc
   - about.adoc
+  - faq.adoc
   - strategic-policy.adoc

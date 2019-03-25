@@ -2,7 +2,7 @@
 layout: page
 title: About ISO/TC 211
 permalink: /about/
-nav_items: [strategic-policy]
+nav_items: [faq, strategic-policy]
 ---
 
 == Scope
