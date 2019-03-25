@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-nav_items: [about, strategic-policy]
+nav_items: [about, strategic-policy, faq]
 ---
 :page-liquid:
 

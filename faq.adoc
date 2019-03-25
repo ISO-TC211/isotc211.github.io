@@ -1,0 +1,40 @@
+---
+layout: page
+title: Frequently Asked Questions
+permalink: /faq/
+nav_items: [about, strategic-policy]
+---
+
+== How can I join the work of ISO/TC 211?
+
+If you want to join the work of ISO/TC 211, you must contact the https://www.iso.org/members.html[ISO member] in your country. Not all ISO members are members of ISO/TC 211. To be involved directly in the work, your member body must be a participating member (P-member) of ISO/TC 211, see the https://www.iso.org/committee/54904.html?view=participation[list of P-members].
+
+The https://www.iso.org/committee/54904.html#liaisons[ISO/TC 211 liaison members] can also nominate experts to join the ISO/TC 211 work.
+
+
+
+== How can I get the Standards from ISO/TC 211?
+
+You can get the ISO/TC 211 standards through the https://www.iso.org/members.html[ISO member] in your country. Even if your country is not a member of ISO/TC 211, you can bay all ISO standards from them.
+
+
+
+== How can I get the password projected documents issued by ISO/TC 211?
+
+Only the https://www.iso.org/committee/54904.html?view=participation[ISO/TC 211 members] have access to the password of the protected documents. The different members may have different ways of distributing documents, please contact the members directly for this information.
+
+
+== Can I join the ISO/TC 211 meetings?
+
+P-members, O-members and liaison members can attend the plenary meetings. All delegates must be accredited by their member bodies (national or liaison).
+
+To participate at the Working Group (WG) meetings and project team meetings, you must be nominated as an expert to that group by a member body (either P-member or liaison member). If you are nominated to a project, you can join the meetings of this project and the WG it belongs to without further accreditation.
+
+In connection with the plenary meetings, a workshop is often arranged. This workshop is normally open for interested parties in the host country.
+
+
+
+== How can I easily find an overview of the ISO/TC 211 work?
+
+The https://committee.iso.org/sites/tc211/home/projects.html[programme of work] lists all the active projects of ISO/TC 211 and gives information of which stage they presently are and the project leader/editor. There is also a link on each project to a fact sheet describing the project closer.
+
