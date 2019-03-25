@@ -1,0 +1,69 @@
+---
+layout: post
+title: ISO/TC 211 and OGC Collaborate on Geographic Processing Standards
+date: 1997-05-14 00:00:00 +0000
+categories: press
+excerpt: ""
+---
+
+//(This is a reproduction of the original OPENGIS CONSORTIUM, INC. NEWS RELEASE, with websites updated)
+
+Wayland, Massachusetts, USA and Oslo, Norway May 14, 1997 -- The Open GIS Consortium, Inc. (OGC) and the International Organization for Standardization Technical Committee 211 Geographic information/Geomatics (ISO/TC 211), announced today that OGC and ISO/TC 211 have begun to work closely together to converge and match their respective work plans to avoid duplicate or divergent work.
+
+
+The resulting convergence of geoprocessing standards will benefit the expanding global community of people who collect, manage, analyze and display digital geographic information using geoprocessing technologies such as geographic information systems (GIS), Earth imaging, automated mapping, and digital navigation.
+
+
+One of ISO/TC 211's first decisions, when it was created some two and half years ago, was to award Class '`A`' liaison status to OGC. Since then both organizations have drawn many of their resources from the same membership. The two organizations will now begin the work of developing a formal convergence and cooperation plan through the mechanism of a white paper. Following consultation with the five ISO/TC 211 Working Groups, OGC will prepare and deliver the white paper to the next meeting of ISO/TC 211 which will be hosted by the British Standards Institution in the UK in October 1997.
+
+
+For the last years, OGC and ISO/TC 211 have been working largely independently to reach partially overlapping goals related to standards that enable interoperability between dissimilar geoprocessing systems. Through the white paper and through ongoing discussion of each other's draft documents, they now seek to converge their approaches to the extent that is possible and consistent with their goals.  Most of the work falls into the four categories of Modeling Approaches, Service Architecture, Terminology, and Technical Content and GIS Domain Models.
+
+
+Kurt Buehler, OGC's Chief Technology Officer, stated that, "`ISO has broader goals and is working at a level of abstraction above OGC, so to an important degree the two efforts complement each other, and both are necessary. ISO is to deliver a specification near the end of 1998. By then OGC will have implemented multiple engineering-level specifications, but they will not be nearly as broad as ISO's work. ISO's work is not likely to result in immediate implementation-level specifications, so it is in our mutual interest to see that OGC's implementable specs fit into the ISO framework as implementation profiles.`"
+
+
+Both organizations seek to provide robust standards which can be universally implemented. At stake is the creation of an application framework of diverse network-resident geospatial databases and application servers that integrators and users can assemble to build applications in domains such as agriculture, business geographics, environmental analysis, urban planning, shipping and logistics, and emergency and disaster response. The need for these capabilities, and also the volume and utility of digital geographic data, are increasing rapidly. Details of the agreement remain to be finalized, but OGC has agreed to send OpenGIS Specification experts to ISO/TC 211 plenary sessions, and experts in ISO/TC 211 will continue to participate in meetings of the OGC Technical Committee. Olaf Ostensen, Chairman of ISO/TC 211, will have a vote the OGC Management Committee. In addition, OGC will fund the Institute for Geoinformatics at the University of Muenster to help clarify and resolve the technical approaches and provide objective input into the white paper and its recommendations. ISO/TC 211 will review the use of ISO's "`Publicly Available Specification`" (PAS) and other mechanisms to determine whether these can be employed to adopt elements of OGC's specifications as ISO specifications, if this is compatible with the white paper's recommendations.
+
+
+Olaf Ostensen said, "`We owe the global community close cooperation. The present situation is one of utterly positive attitudes, and although we have a way to go in formalizing the technical work, it is not an insurmountable problem. ISO/TC 211 welcomes an even more substantial commitment from OGC into the technical work of ISO/TC 211.`"
+
+
+== About ISO/TC 211
+
+ISO/TC 211 is the Technical Committee tasked by ISO to prepare a family of geographic information standards in cooperation with other ISO technical committees preparing related standards (e.g. information technology standards). ISO has a wide global commitment and the national representation covers many different major national players (governments, authorities, industry and organizations) representing most data producers and many users and developers of applications.
+
+ISO/TC 211 is presently working on an integrated set of 20 different standards, and now has 25 active member nations from all over the world and 16 observing member nations. In addition there are 19 liaison organizations of which OGC was one of the first. Two other liaison organizations that will base their future revisions on ISO/TC 211 standards are the North Atlantic Treaty Organization (NATO) through its Digital Geographic Information Working Group (DGIWG) and the maritime society through the International Hydrographic Organization (IHO).
+
+See https://www.isotc211.org[https://www.isotc211.org].
+
+
+== About OGC
+
+OGC, an open international consortium of more than 95 corporations, government agencies, non-government organizations, and universities, coordinates collaborative development and marketing of open geoprocessing technologies.
+
+See http://www.opengeospatial.org[http://www.opengeospatial.org].
+
+
+
+== Contacts
+
+Lance McKee                                    +
+Vice President Corporate Communications        +
+Open GIS Consortium, Inc.                      +
+35 Main Street, Suite 5                        +
+Wayland, MA 01778                              +
+Tel. +1 508-655-5858                           +
+Fax +1 508-655-2237                            +
+lmckee@opengis.org
+
+Olaf Østensen                                  +
+Chairman                                       +
+ISO/TC 211 Geographic information/Geomatics    +
+c/o Norwegian Mapping Authority                +
+Kartverksveien 21                              +
+N-3500 Honefoss Norway                         +
+Tel. +47 32 11 81 00                           +
+Fax +47 32 11 81 01                            +
+olaf.ostensen@statkart.no
+
