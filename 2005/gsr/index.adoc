@@ -1,0 +1,6 @@
+= GSR
+
+== Files provided
+
+* link:gsr.xsd[]
+* link:spatialReferencing.xsd[]

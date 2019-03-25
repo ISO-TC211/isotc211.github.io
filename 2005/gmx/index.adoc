@@ -1,0 +1,11 @@
+= GMX
+
+== Files provided
+
+* link:catalogues.xsd[]
+* link:codelistItem.xsd[]
+* link:crsItem.xsd[]
+* link:extendedTypes.xsd[]
+* link:gmx.xsd[]
+* link:gmxUsage.xsd[]
+* link:uomItem.xsd[]

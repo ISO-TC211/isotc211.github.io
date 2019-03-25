@@ -26,7 +26,7 @@ nav_items: [about, strategic-policy]
       <p>
       Source: <a href="https://github.com/ISO-TC211/HMMG">GitHub&nbsp;repository</a>
       contains model files and information about the Harmonized&nbsp;Model.
-      Wiki explains <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
+      The wiki explains <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
     </div>
   </article>
 
@@ -36,11 +36,12 @@ nav_items: [about, strategic-policy]
 
     <div class="main-links">
       <p>
-      The XML&nbsp;schemas are located in two places:
+      The XML&nbsp;schemas are located here:
 
       <ul>
         <li><a href="https://schemas.isotc211.org">ISO/TC 211 XML schema repository</a>
         <li><a href="https://standards.iso.org/iso">ISO site</a>
+        <li><a href="2005/">ISO 19136:2005 GML 3.2 XML schemas</a>
       </ul>
     </div>
     <div class="source-links">

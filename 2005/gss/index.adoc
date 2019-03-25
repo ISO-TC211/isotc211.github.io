@@ -1,0 +1,6 @@
+= GSS
+
+== Files provided
+
+* link:gss.xsd[]
+* link:geometry.xsd[]

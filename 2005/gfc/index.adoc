@@ -1,0 +1,6 @@
+= GFC
+
+== Files provided
+
+* link:gfc.xsd[GFC XML Schema (XSD)]
+* link:resources/example/G_3.xml[Example XML]

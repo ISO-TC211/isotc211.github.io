@@ -1,0 +1,56 @@
+= ISO 19136:2005 GML 3.2 XML schemas
+
+== General
+
+This directory provides the following files:
+
+* link:1.1/[]
+* link:gco/[]
+* link:gfc/[]
+* link:gmd/[]
+* link:gmi/[]
+* link:gml/[]
+* link:gmx/[]
+* link:gplr/[]
+* link:grg/[]
+* link:gsr/[]
+* link:gss/[]
+* link:gts/[]
+* link:resources/[]
+* link:xlink/[]
+* link:xsd/[]
+
+
+== Version information
+
+* 19139 XSchemas TS RC (2006 May 4)
+* GML version => 19136 XSchemas DIS (2005 november)
+
+
+== Notes
+
+For the sake of convenience, GML 3.2 XML schemas (version 19136 DIS - 2005 november) are (temporarily) provided with the 19139 set of schemas.
+
+The following changes were applied to the GML schemas to enable locale referencing in `referenceSystems.xsd` and `coordinateOperations.xsd`.
+
+* Replaced
+[source,xml]
+----
+<import namespace="http://www.isotc211.org/schemas/2005/gmd" schemaLocation="../iso19139/gmd/gmd.xsd"/>
+----
+with +
+[source,xml]
+----
+<import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="../gmd/gmd.xsd"/>
+----
+
+* Replaced
+[source,xml]
+----
+xmlns:gmd="http://www.isotc211.org/schemas/2005/gmd"
+----
+with +
+[source,xml]
+----
+xmlns:gmd="http://www.isotc211.org/2005/gmd"
+----

@@ -1,0 +1,7 @@
+= GCO
+
+== Files provided
+
+* link:basicTypes.xsd[]
+* link:gco.xsd[]
+* link:gcoBase.xsd[]
