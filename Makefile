@@ -2,6 +2,9 @@ SHELL := /bin/bash
 
 all: _site
 
+bundle:
+	bundle
+
 clean:
 	rm -rf _site
 
@@ -14,7 +17,7 @@ hmmg/HTML/ConceptualModels/index.html:
 hmmg/HTML/ImplementationModels/index.html:
 	cp $(patsubst %.html,%.htm,$@) $@
 
-serve:
+serve: bundle
 	bundle exec jekyll serve
 
 update-init:
