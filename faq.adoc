@@ -42,9 +42,15 @@ The https://committee.iso.org/sites/tc211/home/projects.html[programme of work] 
 
 == Why is an XML namespace URI not accessible?
 
-The issue is that these are namespace URIs, not actual HTTP URLs. For example, the XML schema for `http://www.isotc211.org/2005/gmd` is located at https://www.isotc211.org/2005/gmd/gmd.xsd.
+The issue is that these are namespace URIs, not actual HTTP URLs.
+For example, the XML schema for `+++http://www.isotc211.org/2005/gmd+++`
+is located at https://www.isotc211.org/2005/gmd/gmd.xsd.
 
-Those strings (`http://ww.isotc211.org/2005/gcd`) are purely identifiers (HTTP URIs technically). They do not necessarily resolve to a useful representation although it has become common practice to set them up so they do resolve to something. They could equally well be UUID's or URNs.
+Those strings (`+++http://www.isotc211.org/2005/gcd+++`) are purely identifiers
+(HTTP URIs, technically).
+They do not necessarily resolve to a useful representation,
+although it has become common practice to set them up so they do resolve to something.
+They could equally well be UUID's or URNs.
 
 Instead, the `schemaLocation` property is the one that binds the identifier to a web location (URL) where the XML schema can be retrieved from.
 
