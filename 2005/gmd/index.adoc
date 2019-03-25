@@ -1,0 +1,22 @@
+= GMD
+
+== Files provided
+
+* link:applicationSchema.xsd[]
+* link:citation.xsd[]
+* link:constraints.xsd[]
+* link:content.xsd[]
+* link:dataQuality.xsd[]
+* link:distribution.xsd[]
+* link:extent.xsd[]
+* link:freeText.xsd[]
+* link:gmd.xsd[]
+* link:identification.xsd[]
+* link:maintenance.xsd[]
+* link:metadataApplication.xsd[]
+* link:metadataEntity.xsd[]
+* link:metadataExtension.xsd[]
+* link:portrayalCatalogue.xsd[]
+* link:referenceSystem.xsd[]
+* link:spatialRepresentation.xsd[]
+

@@ -1,0 +1,11 @@
+= GPLR
+
+== Version information
+
+* ISO 19145, 2011-07-11, Annex A
+
+== Files provided
+
+* link:gplr/gplr.xsd[]
+* link:gplr/gplrRegister.xsd[]
+* link:resources/Codelist/gplrCodelists.xml[]

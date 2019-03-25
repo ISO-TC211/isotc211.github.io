@@ -1,0 +1,7 @@
+= GTS
+
+== Files provided
+
+* link:gts.xsd[]
+* link:temporalObjects.xsd[]
+

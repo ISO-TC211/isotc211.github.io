@@ -1,0 +1,6 @@
+= GRG
+
+== Files provided
+
+* link:grg.xsd[]
+* link:register.xsd[]

@@ -1,0 +1,10 @@
+= GMI
+
+== Files provided
+
+* link:acquisitionInformation.xsd[]
+* link:contentInformation.xsd[]
+* link:dataQualityInformation.xsd[]
+* link:gmi.xsd[]
+* link:metadataEntitySet.xsd[]
+* link:spatialRepresentationInformation.xsd[]

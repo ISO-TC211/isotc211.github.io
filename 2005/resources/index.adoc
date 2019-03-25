@@ -1,0 +1,20 @@
+= Resources
+
+== Files provided
+
+
+* link:Codelist/ML_gmxCodelists.xml[]
+* link:Codelist/gmiCodelists.xml[]
+* link:Codelist/gmxCodelists.xml[]
+
+* link:crs/ML_gmxCrs.xml[]
+* link:crs/gmxCrs.xml[]
+
+* link:uom/ML_gmxUom.xml[]
+* link:uom/gmxUom.xml[]
+
+== Examples
+
+* link:example/acquisition.xml[]
+* link:example/fr-fr.xml[]
+* link:example/processStep.xml[]
