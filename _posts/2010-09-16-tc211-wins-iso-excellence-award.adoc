@@ -5,6 +5,7 @@ illustration: "/assets/2010-iso-excellence-award.jpg"
 date: 2010-09-16 00:00:00 +0000
 categories: award
 excerpt: ""
+hide_awards: yes
 ---
 
 We're happy to announce that ISO/TC 211 has won the 2010 ISO Lawrence D. Eicher Leadership Award.
