@@ -7,6 +7,6 @@ categories: award
 excerpt: ""
 ---
 
-We’re happy to announce that ISO/TC 211 has won the 2010 ISO excellence award.
+We're happy to announce that ISO/TC 211 has won the 2010 ISO Lawrence D. Eicher Leadership Award.
 
 See https://www.iso.org/news/2010/09/Ref1354.html[the press release on ISO.org] for more details!
