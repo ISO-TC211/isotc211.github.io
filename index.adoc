@@ -41,7 +41,6 @@ nav_items: [about, strategic-policy, faq]
       <ul>
         <li><a href="https://schemas.isotc211.org">ISO/TC 211 XML schema repository</a>
         <li><a href="https://standards.iso.org/iso">ISO site</a>
-        <li><a href="2005/">ISO 19136:2005 GML 3.2 XML schemas</a>
       </ul>
     </div>
     <div class="source-links">
