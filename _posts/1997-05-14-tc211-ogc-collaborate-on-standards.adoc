@@ -1,6 +1,7 @@
 ---
 layout: post
-title: ISO/TC 211 and OGC Collaborate on Geographic Processing Standards
+title: ISO/TC 211 and OGC collaborate on geoprocessing standards
+title_html: ISO/TC&nbsp;211 and&nbsp;OGC collaborate on&nbsp;geoprocessing standards
 date: 1997-05-14 00:00:00 +0000
 categories: press
 excerpt: ""
