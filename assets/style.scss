@@ -15,6 +15,10 @@ body.home {
       flex-flow: row nowrap;
       justify-content: center;
       align-items: stretch;
+      padding: 0 5vw 0 15vw;
+    }
+    @media screen and (min-width: $widescreenBreakpoint) {
+      padding: 0 15vw;
     }
 
     > .resource {
@@ -57,4 +61,8 @@ body.home {
       }
     }
   }
+}
+
+body.xml-schemas {
+  @extend .pad-all-main-contents;
 }
