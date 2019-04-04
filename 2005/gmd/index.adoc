@@ -1,4 +1,7 @@
-= GMD
+---
+layout: xml-schemas
+title: GMD
+---
 
 == Files provided
 

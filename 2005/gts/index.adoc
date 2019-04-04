@@ -1,4 +1,7 @@
-= GTS
+---
+layout: xml-schemas
+title: GTS
+---
 
 == Files provided
 

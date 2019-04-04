@@ -1,4 +1,7 @@
-= XML Linking Language (XLink) Version 1.0
+---
+layout: xml-schemas
+title: XML Linking Language (XLink) Version 1.0
+---
 
 W3C Recommendation 27 June 2001 - XML Schema document
 

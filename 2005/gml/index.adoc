@@ -1,4 +1,7 @@
-= GML Schema version 3.2.0 (ISO/DIS 19136)
+---
+layout: xml-schemas
+title: GML Schema version 3.2.0 (ISO/DIS 19136)
+---
 
 * Folder "gml": the GML Schema; the root document of the GML Schema is file "gml/gml.xsd"
 

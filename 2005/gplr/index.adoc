@@ -1,8 +1,8 @@
-= GPLR
-
-== Version information
-
-* ISO 19145, 2011-07-11, Annex A
+---
+layout: xml-schemas
+title: GPLR
+version: ISO 19145, 2011-07-11, Annex A
+---
 
 == Files provided
 

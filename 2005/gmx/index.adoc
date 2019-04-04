@@ -1,4 +1,7 @@
-= GMX
+---
+layout: xml-schemas
+title: GMX
+---
 
 == Files provided
 

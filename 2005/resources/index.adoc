@@ -1,4 +1,7 @@
-= Resources
+---
+layout: xml-schemas
+title: Resources
+---
 
 == Files provided
 

@@ -1,4 +1,7 @@
-= GRG
+---
+layout: xml-schemas
+title: GRG
+---
 
 == Files provided
 

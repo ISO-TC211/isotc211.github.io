@@ -1,4 +1,7 @@
-= GFC (1.1)
+---
+layout: xml-schemas
+title: GFC (1.1)
+---
 
 == Files provided
 
