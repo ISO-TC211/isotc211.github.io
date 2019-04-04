@@ -1,4 +1,7 @@
-= GSR
+---
+layout: xml-schemas
+title: GSR
+---
 
 == Files provided
 

@@ -1,4 +1,7 @@
-= GCO
+---
+layout: xml-schemas
+title: GCO
+---
 
 == Files provided
 

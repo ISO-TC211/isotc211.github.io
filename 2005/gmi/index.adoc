@@ -1,4 +1,7 @@
-= GMI
+---
+layout: xml-schemas
+title: GMI
+---
 
 == Files provided
 

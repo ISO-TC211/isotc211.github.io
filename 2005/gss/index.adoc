@@ -1,4 +1,7 @@
-= GSS
+---
+layout: xml-schemas
+title: GSS
+---
 
 == Files provided
 
