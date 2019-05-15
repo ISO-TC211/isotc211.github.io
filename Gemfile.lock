@@ -35,14 +35,13 @@ GEM
       jekyll (~> 3.3)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
-    jekyll-postcss (0.2.0)
     jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.6.0)
       jekyll (~> 3.3)
-    jekyll-theme-isotc211 (0.4.1)
+    jekyll-theme-isotc211 (0.4.2)
       jekyll (~> 3.8)
       jekyll-data (~> 1.0)
       jekyll-seo-tag (~> 2.0)
@@ -78,9 +77,8 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-data
   jekyll-feed (~> 0.6)
-  jekyll-postcss
   jekyll-redirect-from
-  jekyll-theme-isotc211 (~> 0.4.1)
+  jekyll-theme-isotc211 (~> 0.4.2)
   tzinfo-data
 
 BUNDLED WITH

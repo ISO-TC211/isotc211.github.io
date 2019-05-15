@@ -10,7 +10,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.8.5"
 
-gem "jekyll-theme-isotc211", "~> 0.4.1"
+gem "jekyll-theme-isotc211", "~> 0.4.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
