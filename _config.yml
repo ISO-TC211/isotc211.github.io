@@ -13,6 +13,8 @@ committee:
     - url: /faq
       title: FAQ
 
+always_show_committee_link_on_landing: yes
+
 email: open.source@ribose.com
 
 description: >-
