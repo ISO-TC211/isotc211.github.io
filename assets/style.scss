@@ -66,3 +66,27 @@ body.home {
 body.xml-schemas {
   @extend .pad-all-main-contents;
 }
+
+// Flexbox corrections for IE 9-10
+
+@media screen and (min-width:0\0) {
+
+  body.home section.resource-row>.resource {
+    width: 31%;
+    display: block;
+    float: left;
+  }
+
+  body.home section.resource-row {
+    clear: both;
+    display: block;
+  }
+}
+
+// Flexbox corrections for IE 11
+
+@media all and (-ms-high-contrast:none){
+  body.home section.resource-row > .resource{
+    display: inline-block;
+  }
+}
