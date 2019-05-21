@@ -1,5 +1,5 @@
-* link:/agreements/Agreement_ISOTC211_DGIWG.pdf[Co-operative agreement between ISO/TC 211 Geographic information/Geomatics
-  and&nbsp;the&nbsp;**Digital&nbsp;Geographic&nbsp;Information&nbsp;Working&nbsp;Group**&nbsp;(DGIWG)]
+* link:/assets/agreements/Agreement_ISOTC211_DGIWG.pdf[Co-operative agreement between ISO/TC 211 Geographic information/Geomatics
+  and&nbsp;the&nbsp;**Digital Geographic&nbsp;Information Working&nbsp;Group** (DGIWG)]
 
-* link:/agreements/Agreement_ISOTC211_OGC.pdf[Co-operative agreement between ISO/TC 211 Geographic information/Geomatics
-  and&nbsp;the&nbsp;**Open&nbsp;GIS&nbsp;Consortium,&nbsp;Inc.** (OGC)]
+* link:/assets/agreements/Agreement_ISOTC211_OGC.pdf[Co-operative agreement between ISO/TC 211 Geographic information/Geomatics
+  and&nbsp;the&nbsp;**Open&nbsp;GIS Consortium,&nbsp;Inc.** (OGC)]
