@@ -6,7 +6,7 @@ permalink: /
 
 
 ++++
-<section class="resource-row">
+<section class="resource-grid">
   <article class="resource">
     <h3>UML Models</h3>
     <div class="wg">By <abbr title="Harmonized Model Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 HMMG</abbr></div>
@@ -64,6 +64,18 @@ permalink: /
       <p>
       Source: <a href="https://github.com/ISO-TC211/GOM">GitHub&nbsp;repository</a>
       contains Ontology representations of&nbsp;the&nbsp;ISO/TC&nbsp;211&nbsp;standards.
+    </div>
+  </article>
+
+  <article class="resource">
+    <h3>Geolexica <small class="new-label">(new)</small></h3>
+    <div class="wg">By <abbr title="Terminology Management Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 TMG</abbr></div>
+
+    <div class="main-links">
+      <p>
+        Browse the
+        <a href="https://www.geolexica.com/">multilingual glossary for geographic information technology</a>.
+      </p>
     </div>
   </article>
 </section>
