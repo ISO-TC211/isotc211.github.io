@@ -24,8 +24,8 @@ permalink: /
     <div class="source-links">
       <p>
       Source: <a href="https://github.com/ISO-TC211/HMMG">GitHub&nbsp;repository</a>
-      contains model files and information about the Harmonized&nbsp;Model.
-      The wiki explains <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
+      contains model&nbsp;files and&nbsp;information about the&nbsp;Harmonized&nbsp;Model.
+      The&nbsp;wiki explains <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
     </div>
   </article>
 
@@ -63,7 +63,7 @@ permalink: /
     <div class="source-links">
       <p>
       Source: <a href="https://github.com/ISO-TC211/GOM">GitHub&nbsp;repository</a>
-      contains Ontology representations of&nbsp;the&nbsp;ISO/TC&nbsp;211&nbsp;standards.
+      contains Ontology&nbsp;representations of&nbsp;the&nbsp;ISO/TC&nbsp;211&nbsp;standards.
     </div>
   </article>
 
