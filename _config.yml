@@ -60,8 +60,6 @@ nav:
 footer_nav:
   - url: https://committee.iso.org/home/tc211
     title: ISO/TC 211
-  - url: /external-party-agreements/
-    title: Agreements with External Parties
 
 exclude:
   - Gemfile
