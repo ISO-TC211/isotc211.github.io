@@ -1,8 +1,8 @@
 title: Resource site for ISO/TC 211 Geographic information/Geomatics
 title_html: Geographic technology standard models & schemas
 
-# google_analytics:
-#   id: UA-XXXXX-Y
+google_analytics:
+  id: UA-138578173-1
 
 committee:
   id: 211
