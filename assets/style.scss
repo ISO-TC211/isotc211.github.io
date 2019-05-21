@@ -68,9 +68,9 @@ body.xml-schemas {
 
 // Flexbox corrections for IE 9-10
 
-@media screen and (min-width:0\0) {
+@media screen and (min-width: 0\0) {
 
-  body.home section.resource-grid>.resource {
+  body.home section.resource-grid > .resource {
     width: 31%;
     display: block;
     float: left;
@@ -84,7 +84,7 @@ body.xml-schemas {
 
 // Flexbox corrections for IE 11
 
-@media all and (-ms-high-contrast:none){
+@media all and (-ms-high-contrast:none) {
   body.home section.resource-grid > .resource{
     display: inline-block;
   }
