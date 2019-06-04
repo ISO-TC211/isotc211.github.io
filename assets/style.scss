@@ -7,36 +7,29 @@
 
 
 body.home {
-  section.resource-row {
-    padding: 0 15vw;
+  section.resource-grid {
+    padding: 1em 15vw 2em 15vw;
 
     @media screen and (min-width: $bigscreenBreakpoint) {
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: row wrap;
       justify-content: center;
       align-items: stretch;
-      padding: 0 5vw 0 15vw;
+      padding: 1em 5vw 2em 15vw;
     }
     @media screen and (min-width: $widescreenBreakpoint) {
-      padding: 0 15vw;
+      padding: 1em 15vw 2em 15vw;
     }
 
     > .resource {
-      flex: 1;
-      padding-bottom: 1em;
+      box-sizing: border-box;
+      flex-basis: 50%;
       display: flex;
       flex-flow: column nowrap;
+      padding-right: 1em;
 
       ul {
         padding-left: 1em;
-      }
-
-      @media screen and (min-width: $bigscreenBreakpoint) {
-        padding-left: 1em;
-
-        &:first-child {
-          padding-left: 0;
-        }
       }
 
       .wg {
@@ -51,6 +44,12 @@ body.home {
       h3 {
         font-size: 160%;
         font-weight: normal;
+
+        .new-label {
+          color: $importantColor;
+          font-size: 1rem;
+          letter-spacing: -.04em;
+        }
       }
 
       .main-links {
@@ -65,4 +64,28 @@ body.home {
 
 body.xml-schemas {
   @extend .pad-all-main-contents;
+}
+
+// Flexbox corrections for IE 9-10
+
+@media screen and (min-width: 0\0) {
+
+  body.home section.resource-grid > .resource {
+    width: 31%;
+    display: block;
+    float: left;
+  }
+
+  body.home section.resource-grid {
+    clear: both;
+    display: block;
+  }
+}
+
+// Flexbox corrections for IE 11
+
+@media all and (-ms-high-contrast:none) {
+  body.home section.resource-grid > .resource{
+    display: inline-block;
+  }
 }

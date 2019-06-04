@@ -1,6 +1,9 @@
 title: Resource site for ISO/TC 211 Geographic information/Geomatics
 title_html: Geographic technology standard models & schemas
 
+google_analytics:
+  id: UA-138578173-1
+
 committee:
   id: 211
   name: Geographic information/Geomatics
@@ -12,6 +15,8 @@ committee:
       title: Strategic Policy Statement
     - url: /faq
       title: FAQ
+
+always_show_committee_link_on_landing: yes
 
 email: open.source@ribose.com
 
@@ -51,6 +56,10 @@ nav:
     - id: news
       url: /posts
       title: News & Articles
+
+footer_nav:
+  - url: https://committee.iso.org/home/tc211
+    title: ISO/TC 211
 
 exclude:
   - Gemfile
