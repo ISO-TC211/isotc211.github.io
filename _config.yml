@@ -1,6 +1,8 @@
 title: Resource site for ISO/TC 211 Geographic information/Geomatics
 title_html: Geographic technology standard models & schemas
 
+font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
+
 google_analytics:
   id: UA-138578173-1
 
