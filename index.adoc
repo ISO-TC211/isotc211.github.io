@@ -78,5 +78,28 @@ permalink: /
       </p>
     </div>
   </article>
+
+  <article class="resource">
+    <h3>ISO Geodetic Registry <small class="new-label">(new)</small></h3>
+    <div class="wg">By <abbr title="ISO 19127 Geodetic Registry Control Body">ISO Geodetic Registry Control Body</abbr></div>
+
+    <div class="main-links">
+      <p>
+        The <a href="https://geodetic.isotc211.org/">ISO Geodetic Registry</a> for ISO 19127 is now available.
+      </p>
+    </div>
+  </article>
+
+  <article class="resource">
+    <h3>Registries <small class="new-label">(new)</small></h3>
+    <div class="wg">By <abbr title="Resources Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 Resources group</abbr></div>
+
+    <div class="main-links">
+      <p>
+        Registries run by ISO/TC 211 are now available at the
+        <a href="https://registry.isotc211.org/">TC 211 registries site</a>.
+      </p>
+    </div>
+  </article>
 </section>
 ++++
