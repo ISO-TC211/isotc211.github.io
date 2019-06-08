@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /strategic-policy/
-nav_items: [about, faq]
+nav_items: [about, faq, related]
 title: Strategic Policy Statement
 
 version: 1.1
 ---
 
-== Excerpt from ISO/IEC Directives Part 1 :
+== Excerpt from ISO/IEC Directives Part 1:
 
 === 2.1.1 Strategic policy statement
 

@@ -17,6 +17,8 @@ committee:
       title: Strategic Policy Statement
     - url: /faq
       title: FAQ
+    - url: /related
+      title: Related
 
 always_show_committee_link_on_landing: yes
 
@@ -80,3 +82,4 @@ header_pages:
   - about.adoc
   - faq.adoc
   - strategic-policy.adoc
+  - related.adoc

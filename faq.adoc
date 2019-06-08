@@ -2,7 +2,7 @@
 layout: page
 title: Frequently Asked Questions
 permalink: /faq/
-nav_items: [about, strategic-policy]
+nav_items: [about, strategic-policy, related]
 ---
 
 == How can I join the work of ISO/TC 211?

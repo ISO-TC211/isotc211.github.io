@@ -1,0 +1,65 @@
+---
+layout: page
+permalink: /related/
+nav_items: [about, faq, strategic-policy]
+title: Related sites
+---
+
+== Tools and resources developed by ISO/TC 211
+
+* https://github.com/ISO-TC211[ISO/TC 211 GitHub page]  (Repository of learning resources relating to XMG, GOM, UML best practices, ISO 19110 and ISO19115-2)
+* http://www.geolexica.com[Geolexica -- ISO/TC 211 Multi-Lingual Glossary of Terms]
+* http://isotc211.standardstracker.org/[ISO/TC 211 CIO StandardsTracker]
+* http://www.isotc211.org/pmg/dependencies.htm[ISO/TC 211 PMG dependancy database]
+* http://www.isotc211.org/hmmg/HTML/root.html[ISO/TC 211 Harmonized Model]
+* http://standards.iso.org/iso/19160/-1/[ISO 19160-1 Addressing profiles]
+
+
+== Wiki providing informations on standards for Beginners to Advance
+
+* http://sdistandards.icaci.org/wp-content/uploads/2014/10/MAfA_SectionC_Integrated_V10.pdf[Standards for fundamental geo-spatial datasets] (currently being transformed into a Wiki by the ICA Commission on SDI and Standards)
+* http://wiki.geonovum.nl/index.php?title=Main_Page[Geonovum Wiki]
+* https://geo-ide.noaa.gov/wiki/index.php?title=Main_Page[NOAA Environmental Data Management Wiki]
+* https://www.seegrid.csiro.au/wiki/AppSchemas/IsoTc211Standards[SEE Grid Wiki]
+* http://wiki.esipfed.org/index.php/Category:Documentation_Cluster[ESIP Wiki]
+* https://wiki.earthdata.nasa.gov/display/NASAISO/NASA+ISO+for+EOSDIS[NASA ISO for EOSDIS Wiki]
+
+
+== Tools for standards development
+
+* http://shapechange.net[ShapeChange]
+* http://www.sparxsystems.com/products/ea/[Enterprise Architect]
+* http://www.snowflakesoftware.com[Snowflake software]
+
+
+== Open Geospatial Consortium (OGC) developed and related resources
+
+
+* https://github.com/opengeospatial/ogc_school[OGC School (GitHub)]
+* https://github.com/opengeospatial/e-learning/wiki/Resources[OGC Resources]
+* http://docs.opengeospatial.org/wp/15-002r5/15-002r5.html[OGC Compliance Overview - Guide for Software Acquisition]
+* http://54.68.173.163/el/[OGC E-learning]
+* http://learningzone.rspsoc.org.uk/index.php/Learning-Materials/Introduction-to-OGC-Standards/Introduction-to-OGC-Standards[Landmap Introduction to OGC Standards]
+
+
+== UN-GGIM documents
+
+* http://ggim.un.org/default.html[UN Global Geospatial Information Management (UN-GGIM)]
+* http://ggim.un.org/docs/Future-trends.pdf[UN-GGIM Future Trends in Geospatial Information Management: the five to ten year vision]
+* http://ggim.un.org/docs/meetings/GGIM4/E-C20-2014-8_Essential%20Standards%20Guide%20for%20UNGGIM.pdf[A Guide to the Role of Standards in Geospatial Information Management]
+* https://ggim.un.org/docs/meetings/3rd%20UNCE/E_C.20_2013_8_ISO-OGC-IHO%20Standards%20background%20paper.pdf[The UN-GGIM inventory of issues and geographic information standardization]
+
+
+== Other
+
+* http://www.linkvit.eu/training-modules/[Linkvit trainging courses]
+* http://www.agi.org.uk/join-us/agi-groups/standards-committee/the-importance-of-standards[The Association of Geographic Information - The Importance of Standards]
+* http://www.esri.com/library/whitepapers/pdfs/supported-ogc-iso-standards.pdf[ESRI support for Geospatial Standards: OGC and ISO/TC 211]
+* http://www.eurosdr.net/education/current[EuroSDR coursest]
+* http://www.eurogeographics.org/event/eurosdr-elearning-course-open-standards[EuroGeographics, Open standards course]
+* http://www.up.ac.za/en/centre-for-geoinformation-science/article/26681/professional-development[Short course: Introduction to GIS Standards (South Africa)]
+* http://www.snowflakesoftware.com/training/gml/[GML training]
+* http://www.eurogeographics.org/documents/Guidelines_ISO19100_Quality.pdf[Guidelines for Implementing the ISO 19100 Geographic Information Quality Standards in National Mapping and Cadastral Agencies]
+* https://www.fgdc.gov/standards[Federal Geographic Data Committee -- Standards pag]
+* http://centc287.eu/index.php/standards/benefitting-from-standards[CEN/TC 287 -- How can standards help you?]
+
