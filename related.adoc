@@ -8,7 +8,7 @@ title: Related sites
 == Tools and resources developed by ISO/TC 211
 
 * https://github.com/ISO-TC211[ISO/TC 211 GitHub page]  (Repository of learning resources relating to XMG, GOM, UML best practices, ISO 19110 and ISO19115-2)
-* http://www.geolexica.com[Geolexica -- ISO/TC 211 Multi-Lingual Glossary of Terms]
+* http://www.geolexica.org[Geolexica -- ISO/TC 211 Multi-Lingual Glossary of Terms]
 * http://isotc211.standardstracker.org/[ISO/TC 211 CIO StandardsTracker]
 * http://www.isotc211.org/pmg/dependencies.htm[ISO/TC 211 PMG dependancy database]
 * http://www.isotc211.org/hmmg/HTML/root.html[ISO/TC 211 Harmonized Model]
