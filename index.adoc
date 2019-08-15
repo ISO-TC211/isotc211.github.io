@@ -9,7 +9,7 @@ permalink: /
 <section class="resource-grid">
   <article class="resource">
     <h3>UML Models</h3>
-    <div class="wg">By <abbr title="Harmonized Model Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 HMMG</abbr></div>
+    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="Harmonized Model Maintenance Group">HMMG</abbr></div>
 
     <div class="main-links">
       <p>
@@ -31,7 +31,7 @@ permalink: /
 
   <article class="resource">
     <h3>XML Schemas</h3>
-    <div class="wg">By <abbr title="XML Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 XMG</abbr></div>
+    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="XML Maintenance Group">XMG</abbr></div>
 
     <div class="main-links">
       <p>
@@ -45,42 +45,62 @@ permalink: /
     </div>
     <div class="source-links">
       <p>
-      Source: <a href="https://github.com/ISO-TC211/XML">GitHub&nbsp;repository</a>
-      contains XML&nbsp;schema representations of&nbsp;ISO/TC&nbsp;211&nbsp;standards.
+      Source: <a href="https://github.com/ISO-TC211/XML">XMG's GitHub&nbsp;repository</a>
     </div>
   </article>
 
   <article class="resource">
     <h3>Ontologies</h3>
-    <div class="wg">By <abbr title="Group on Ontology Management from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 GOM</abbr></div>
+    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="Group on Ontology Management">GOM</abbr></div>
 
     <div class="main-links">
-      <p>
-      The ontologies are located
-      in the <a href="https://def.isotc211.org">Ontology&nbsp;repository</a>.
+      <ul>
+        <li><a href="https://def.isotc211.org">Ontology&nbsp;repository</a>
     </div>
 
     <div class="source-links">
       <p>
-      Source: <a href="https://github.com/ISO-TC211/GOM">GitHub&nbsp;repository</a>
-      contains Ontology&nbsp;representations of&nbsp;the&nbsp;ISO/TC&nbsp;211&nbsp;standards.
+      Source: <a href="https://github.com/ISO-TC211/GOM">GOM's GitHub&nbsp;repository</a>
     </div>
   </article>
 
   <article class="resource">
-    <h3>Geolexica <small class="new-label">(new)</small></h3>
-    <div class="wg">By <abbr title="Terminology Management Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 TMG</abbr></div>
+    <h3>Terminology</h3>
+    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="Terminology Management Group">TMG</abbr></div>
+
+    <div class="main-links">
+      <ul>
+        <li><a href="https://github.com/ISO-TC211/TMG/releases">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms (MLGT) releases</a>
+    </div>
+
+    <div class="source-links">
+      <p>
+      Source: <a href="https://github.com/ISO-TC211/TMG">TMG's GitHub&nbsp;repository</a>
+    </div>
+  </article>
+
+
+  <article class="resource">
+    <h3>Geolexica <small class="new-label">new</small></h3>
+    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="Terminology Management Group">TMG</abbr></div>
 
     <div class="main-links">
       <p>
-        Browse the
-        <a href="https://www.geolexica.com/">multilingual glossary for geographic information technology</a>.
+        Browse
+        <a href="https://www.geolexica.org/">Geolexica</a>
+        for terminology on geographic information technology.
       </p>
+    </div>
+    <div class="source-links">
+      <p>
+      Source: <a href="https://github.com/ISO-TC211/geolexica.org">GitHub&nbsp;repository</a>.
+      <p>
+      Feedback: report issues at <a href="https://www.geolexica.com/feedback">Geolexica's feedback page</a>
     </div>
   </article>
 
   <article class="resource">
-    <h3>ISO Geodetic Registry <small class="new-label">(new)</small></h3>
+    <h3>ISO Geodetic Registry <small class="new-label">new</small></h3>
     <div class="wg">By <abbr title="ISO 19127 Geodetic Registry Control Body">ISO Geodetic Registry Control Body</abbr></div>
 
     <div class="main-links">
@@ -91,7 +111,7 @@ permalink: /
   </article>
 
   <article class="resource">
-    <h3>Registries <small class="new-label">(new)</small></h3>
+    <h3>Registries <small class="new-label">new</small></h3>
     <div class="wg">By <abbr title="Resources Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 Resources group</abbr></div>
 
     <div class="main-links">
