@@ -1,7 +1,9 @@
 language: ruby
 dist: xenial
+
 rvm:
   - 2.5
+
 addons:
   apt:
     update: true
@@ -23,30 +25,39 @@ addons:
     - name: node
       confinement: classic # or devmode
       channel: 10/stable
+
 env:
   global:
+
 before_install:
   - gem update --system
   - gem install bundler
   - make update-init update-modules
   - npm install
+
 before_script:
   - bundle
+
 script:
   - make _site
+
 install:
   - pip install --user awscli
+
 deploy:
+
   - provider: script
     script: ./monitor.sh aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
     skip_cleanup: true
     on:
       branch: master
+
   - provider: script
     script: ./monitor.sh aws s3 sync _site s3://$S3_STAGING_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
     skip_cleanup: true
     on:
       branch: staging
+
 after_deploy:
   - aws configure set preview.cloudfront true
   - test $TRAVIS_BRANCH = "master" && aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
