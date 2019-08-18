@@ -65,18 +65,6 @@ footer_nav:
   - url: https://committee.iso.org/home/tc211
     title: ISO/TC 211
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Makefile
-  - deploy.sh
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .sass-cache/
-
 header_pages:
   - home.adoc
   - about.adoc

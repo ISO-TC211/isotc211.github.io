@@ -38,16 +38,21 @@ GEM
       nokogiri
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-plugin-frontend-build (0.0.2)
+      jekyll (~> 3.8)
     jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-theme-isotc211 (0.4.8)
+    jekyll-theme-isotc211 (0.5.3)
       jekyll (~> 3.8)
       jekyll-data (~> 1.0)
       jekyll-seo-tag (~> 2.0)
+      jekyll-theme-isotc211-helpers (~> 0.5.3)
+    jekyll-theme-isotc211-helpers (0.5.3)
+      jekyll (~> 3.8)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -84,9 +89,11 @@ DEPENDENCIES
   jekyll-data
   jekyll-external-links (~> 0.1.2)
   jekyll-feed (~> 0.6)
+  jekyll-plugin-frontend-build
   jekyll-redirect-from
-  jekyll-theme-isotc211 (~> 0.4.8)
+  jekyll-theme-isotc211 (~> 0.5.3)
+  jekyll-theme-isotc211-helpers (~> 0.5.3)
   tzinfo-data
 
 BUNDLED WITH
-   2.0.1
+   2.0.2
