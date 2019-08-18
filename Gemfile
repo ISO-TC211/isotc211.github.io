@@ -10,11 +10,13 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.8.5"
 
-gem "jekyll-theme-isotc211", "~> 0.4.8"
+gem "jekyll-theme-isotc211", "~> 0.5.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-theme-isotc211-helpers", "~> 0.5.3"
+  gem "jekyll-plugin-frontend-build"
   gem "jekyll-data"
   gem "jekyll-asciidoc"
   gem "jekyll-redirect-from"
