@@ -64,10 +64,3 @@ nav:
 footer_nav:
   - url: https://committee.iso.org/home/tc211
     title: ISO/TC 211
-
-header_pages:
-  - home.adoc
-  - about.adoc
-  - faq.adoc
-  - strategic-policy.adoc
-  - related.adoc
