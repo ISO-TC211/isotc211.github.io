@@ -9,7 +9,7 @@ permalink: /
 <section class="resource-grid">
   <article class="resource">
     <h3>UML Models</h3>
-    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="Harmonized Model Maintenance Group">HMMG</abbr></div>
+    <div class="wg">By <abbr title="Harmonized Model Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 HMMG</abbr></div>
 
     <div class="main-links">
       <p>
@@ -31,7 +31,7 @@ permalink: /
 
   <article class="resource">
     <h3>XML Schemas</h3>
-    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="XML Maintenance Group">XMG</abbr></div>
+    <div class="wg">By <abbr title="XML Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 XMG</abbr></div>
 
     <div class="main-links">
       <p>
@@ -51,7 +51,7 @@ permalink: /
 
   <article class="resource">
     <h3>Ontologies</h3>
-    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="Group on Ontology Management">GOM</abbr></div>
+    <div class="wg">By <abbr title="Group on Ontology Management from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 GOM</abbr></div>
 
     <div class="main-links">
       <ul>
@@ -66,7 +66,7 @@ permalink: /
 
   <article class="resource">
     <h3>Terminology</h3>
-    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="Terminology Management Group">TMG</abbr></div>
+    <div class="wg">By <abbr title="Terminology Management Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 TMG</abbr></div>
 
     <div class="main-links">
       <ul>
@@ -82,7 +82,7 @@ permalink: /
 
   <article class="resource">
     <h3>Geolexica <small class="new-label">new</small></h3>
-    <div class="wg">By <abbr title="International Organization for Standardization">ISO</abbr>/<abbr title="Technical Committee 211">TC 211</abbr> <abbr title="Terminology Management Group">TMG</abbr></div>
+    <div class="wg">By <abbr title="Terminology Management Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 TMG</abbr></div>
 
     <div class="main-links">
       <p>
@@ -112,7 +112,7 @@ permalink: /
 
   <article class="resource">
     <h3>Registries <small class="new-label">new</small></h3>
-    <div class="wg">By <abbr title="Resources Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 Resources group</abbr></div>
+    <div class="wg">By <abbr title="Resources Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 Resources Group</abbr></div>
 
     <div class="main-links">
       <p>
