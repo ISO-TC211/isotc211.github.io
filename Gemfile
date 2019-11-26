@@ -20,7 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-data"
   gem "jekyll-asciidoc"
   gem "jekyll-redirect-from"
-  gem "jekyll-external-links", "~> 0.1.2"
+  gem "jekyll-external-links", "~> 0.1.3"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -18,7 +18,7 @@ hmmg/HTML/ImplementationModels/index.html:
 	cp $(patsubst %.html,%.htm,$@) $@
 
 serve: bundle
-	bundle exec jekyll serve
+	bundle exec jekyll serve --trace
 
 update-init:
 	git submodule update --init
