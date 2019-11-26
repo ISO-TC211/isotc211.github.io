@@ -16,8 +16,7 @@ permalink: /
       Browse HTML views of the Harmonized UML Model:
 
       <ul>
-        <li><a href="/hmmg/HTML/ConceptualModels/">Conceptual models</a>
-        <li><a href="/hmmg/HTML/ImplementationModels/">Implementation models</a>
+        <li><a href="http://iso.sparxcloud.com/index.php">All models</a>
       </ul>
     </div>
 
