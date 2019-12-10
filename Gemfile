@@ -1,11 +1,5 @@
 source "https://rubygems.org"
 
-# gem "metanorma-cli"
-# gem "metanorma-csd", path: "~/src/relaton-cli"
-# gem "metanorma-cli", path: "~/src/metanorma-cli"
-# gem "relaton-cli", git: "https://github.com/riboseinc/relaton-cli"
-# gem "relaton-cli", path: "~/src/relaton-cli"
-
 # __________________ JEKYLL BELOW __________________
 
 gem "jekyll", "~> 3.8.5"
@@ -20,6 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-data"
   gem "jekyll-asciidoc"
   gem "jekyll-redirect-from"
+  gem "jekyll-sitemap"
   gem "jekyll-external-links", "~> 0.1.3"
 end
 
