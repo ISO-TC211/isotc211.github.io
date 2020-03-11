@@ -31,11 +31,3 @@ make clean
 make all
 ----
 
-
-== Updating HMMG HTML
-
-. Update the repo at https://github.com/ISO-TC211/hmmg-html
-
-. Go to the https://github.com/ISO-TC211/www.isotc211.org repo, run `make update-modules` (make sure the submodule has been initialized with `make update-init`). Commit the updated `hmmg-html` tag.
-
-. The site will get rebuilt and deployed!
