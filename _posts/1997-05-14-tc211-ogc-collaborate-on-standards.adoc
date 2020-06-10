@@ -1,13 +1,12 @@
 ---
 layout: post
 title: ISO/TC 211 and OGC collaborate on geoprocessing standards
-title_html: ISO/TC&nbsp;211 and&nbsp;OGC collaborate on&nbsp;geoprocessing standards
+title_html: ISO/TC 211 and OGC collaborate on geoprocessing standards
 date: 1997-05-14 00:00:00 +0000
 categories: press
 excerpt: >-
-  <p>
-  Both organizations seek to&nbsp;provide robust&nbsp;standards
-  which&nbsp;can&nbsp;be universally&nbsp;implemented.
+  Both organizations seek to provide robust standards
+  which can be universally implemented.
 ---
 
 [NOTE]
