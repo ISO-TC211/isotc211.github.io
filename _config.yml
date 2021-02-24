@@ -20,6 +20,11 @@ committee:
     - url: /related
       title: Related
 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 always_show_committee_link_on_landing: yes
 
 email: open.source@ribose.com
