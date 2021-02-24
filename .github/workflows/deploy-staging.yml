@@ -9,7 +9,7 @@ jobs:
     name: Build site
     runs-on: ubuntu-latest
     environment:
-      name: production
+      name: staging
       url: https://staging-www.isotc211.org
     steps:
       - name: Setup prerequisites
