@@ -8,6 +8,9 @@ jobs:
   build:
     name: Build site
     runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://www.isotc211.org
     steps:
       - name: Setup prerequisites
         run: |
@@ -22,16 +25,7 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
-          architecture: 'x64'
       - uses: actions/checkout@master
-      - name: Setup git submodules
-        # env:
-        #   MLGT_DATA_DEPLOY_KEY: ${{ secrets.MLGT_DATA_DEPLOY_KEY }}
-        #   GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-        run: |
-          # eval "$(ssh-agent -s)"
-          # ssh-add - <<< "${MLGT_DATA_DEPLOY_KEY}"
-          make update-init update-modules
       - name: Update gems
         run: |
           gem install bundler -v "~> 2"
@@ -45,8 +39,7 @@ jobs:
         run: |
           make _site
 
-
-      - name: Deploy to ${{ secrets.S3_BUCKET_NAME }}
+      - name: Deploy to AWS
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
