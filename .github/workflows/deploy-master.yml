@@ -18,7 +18,6 @@ jobs:
           sudo apt-get install -y curl make libxml2-dev libxslt-dev nodejs-dev node-gyp libssl1.0-dev npm openssl
       - name: Setup snaps
         run: |
-          sudo snap install yq
           sudo snap install aws-cli --classic
           sudo snap install node --classic --channel=10/stable
       - name: Use Ruby
