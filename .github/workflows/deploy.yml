@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup git submodules (authenticated)
         env:
-          GLOSSARY_DEPLOY_KEY: ${{ secrets.GLOSSARY_DEPLOY_KEY }}
+          GLOSSARY_DEPLOY_KEY: ${{ secrets.GITHUB_TOKEN }}
           GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
         run: |
           eval "$(ssh-agent -s)"
