@@ -4,7 +4,6 @@ permalink: /
 ---
 :page-liquid:
 
-
 ++++
 <section class="resource-grid">
   <article class="resource">
@@ -77,7 +76,7 @@ permalink: /
       <ul>
         <li><a href="https://github.com/ISO-TC211/TMG/releases">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms (MLGT) releases</a>
         <li>Browse
-          <a href="https://www.geolexica.org/">Geolexica</a>
+          <a href="https://isotc211.geolexica.org/">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms online</a>
           for multi-lingual terminology on geographic information technology.
     </div>
 
@@ -85,7 +84,9 @@ permalink: /
       <p>
       Source: <a href="https://github.com/ISO-TC211/TMG">TMG's GitHub&nbsp;repository</a>
       <p>
-      Feedback: report issues at <a href="https://www.geolexica.com/feedback">Geolexica's feedback page</a>
+      Feedback: report issues at the
+      <a href="https://isotc211.geolexica.com/feedback">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms
+        online's feedback page</a>
     </div>
   </article>
 
