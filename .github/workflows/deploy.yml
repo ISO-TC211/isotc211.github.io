@@ -1,0 +1,68 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+      - staging
+  repository_dispatch:
+
+jobs:
+  build:
+    name: Build site
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.ref == 'refs/heads/master' && 'production' || 'staging' }}
+      url: ${{ github.ref == 'refs/heads/master' && 'https://www.isotc211.org' || 'https://staging-www.isotc211.org' }}
+    steps:
+      - name: Setup prerequisites
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
+      - name: Setup snaps
+        run: |
+          sudo snap install aws-cli --classic
+          sudo snap install node --classic --channel=10/stable
+      - name: Use Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - name: Use Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+      - uses: actions/checkout@v2
+      - name: Setup git submodules (authenticated)
+        env:
+          GLOSSARY_DEPLOY_KEY: ${{ secrets.GLOSSARY_DEPLOY_KEY }}
+          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+        run: |
+          eval "$(ssh-agent -s)"
+          ssh-add - <<< "${GLOSSARY_DEPLOY_KEY}"
+          make update-init update-modules
+      - name: Update gems
+        run: |
+          gem install bundler -v "~> 2"
+          bundle install --jobs 4 --retry 3
+      - name: Setup npm
+        run: |
+          npm install
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+        run: |
+          make all
+
+      - name: Deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+        run: |
+          aws configure set default.s3.max_concurrent_requests 100
+          aws configure set default.s3.max_queue_size 10000
+          aws configure set default.s3.use_accelerate_endpoint true
+          aws configure set default.s3.payload_signing_enabled false
+          rake geolexica:s3_deploy
