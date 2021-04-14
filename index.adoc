@@ -36,14 +36,13 @@ permalink: /
 
     <div class="main-links">
       <ul>
-        <li><a href="http://iso.sparxcloud.com/index.php">Browse views of the Harmonized UML Model</a>
+        <li><a href="http://iso.sparxcloud.com/index.php">Harmonized UML Model (HTML) at SparxCloud</a>
       </ul>
     </div>
 
     <div class="source-links">
       <p>
-      Source: <a href="https://github.com/ISO-TC211/HMMG">GitHub&nbsp;repository</a>
-      contains model&nbsp;files and&nbsp;information about the&nbsp;Harmonized&nbsp;Model.
+      Source: <a href="https://github.com/ISO-TC211/HMMG">HMMG&nbsp;GitHub&nbsp;repository</a>.
       The&nbsp;wiki explains <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
     </div>
   </article>
@@ -57,14 +56,14 @@ permalink: /
       The XML&nbsp;schemas are located here:
 
       <ul>
-        <li><a href="https://schemas.isotc211.org">ISO/TC&nbsp;211 XML&nbsp;schema repository</a>
+        <li><a href="https://schemas.isotc211.org">Official ISO/TC&nbsp;211 XML&nbsp;schema repository</a>
         <li><a href="2005/">ISO&nbsp;19136:2005 GML&nbsp;3.2 XML&nbsp;schemas</a>
-        <li><a href="https://standards.iso.org/iso">ISO standards site</a>
+        <li><a href="https://standards.iso.org/iso">General ISO standards schemas</a>
       </ul>
     </div>
     <div class="source-links">
       <p>
-      Source: <a href="https://github.com/ISO-TC211/XML">XMG's GitHub&nbsp;repository</a>
+      Source: <a href="https://github.com/ISO-TC211/XML">XMG GitHub&nbsp;repository</a>
     </div>
   </article>
 
@@ -74,15 +73,13 @@ permalink: /
 
     <div class="main-links">
       <ul>
-        <li><a href="https://github.com/ISO-TC211/TMG/releases">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms (MLGT) releases</a>
-        <li>Browse
-          <a href="https://isotc211.geolexica.org/">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms online</a>
-          for multi-lingual terminology on geographic information technology.
+        <li><a href="https://isotc211.geolexica.org/">Online Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms (MLGT) at Geolexica</a>
+        <li><a href="https://github.com/ISO-TC211/TMG/releases">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms (MLGT) spreadsheet releases</a>
     </div>
 
     <div class="source-links">
       <p>
-      Source: <a href="https://github.com/ISO-TC211/TMG">TMG's GitHub&nbsp;repository</a>
+      Source: <a href="https://github.com/ISO-TC211/TMG">TMG GitHub&nbsp;repository</a>
       <p>
       Feedback: report issues at the
       <a href="https://isotc211.geolexica.com/feedback">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms
@@ -96,17 +93,17 @@ permalink: /
 
     <div class="main-links">
       <ul>
-        <li><a href="https://def.isotc211.org">Ontology&nbsp;repository</a>
+        <li><a href="https://def.isotc211.org">Official ontologies</a>
     </div>
 
     <div class="source-links">
       <p>
-      Source: <a href="https://github.com/ISO-TC211/GOM">GOM's GitHub&nbsp;repository</a>
+      Source: <a href="https://github.com/ISO-TC211/GOM">GOM GitHub&nbsp;repository</a>
     </div>
   </article>
 
   <article class="resource">
-    <h3>Registries <small class="new-label">new</small></h3>
+    <h3>Registries</h3>
     <div class="wg">By <abbr title="Resources Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 Resources Group</abbr></div>
 
     <div class="main-links">
