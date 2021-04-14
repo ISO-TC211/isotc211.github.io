@@ -63,6 +63,9 @@ jobs:
         run: |
           aws configure set default.s3.max_concurrent_requests 100
           aws configure set default.s3.max_queue_size 10000
-          aws configure set default.s3.use_accelerate_endpoint true
+          # aws configure set default.s3.use_accelerate_endpoint true
           aws configure set default.s3.payload_signing_enabled false
-          rake geolexica:s3_deploy
+          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.html" --content-type "text/html; charset=utf-8"
+          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.json" --content-type "text/json; charset=utf-8"
+          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*.html,*.json" --include "*"
+          aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
