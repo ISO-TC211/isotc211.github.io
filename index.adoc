@@ -43,7 +43,8 @@ permalink: /
     <div class="source-links">
       <p>
       Source: <a href="https://github.com/ISO-TC211/HMMG">HMMG&nbsp;GitHub&nbsp;repository</a>.
-      The&nbsp;wiki explains <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
+      <p>
+      Note: See <a href="https://github.com/ISO-TC211/HMMG/wiki">how&nbsp;to&nbsp;work with&nbsp;the&nbsp;model</a>.
     </div>
   </article>
 
@@ -81,9 +82,7 @@ permalink: /
       <p>
       Source: <a href="https://github.com/ISO-TC211/TMG">TMG GitHub&nbsp;repository</a>
       <p>
-      Feedback: report issues at the
-      <a href="https://isotc211.geolexica.com/feedback">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms
-        online's feedback page</a>
+      Feedback: <a href="https://isotc211.geolexica.com/feedback">Online MLGT feedback page</a>
     </div>
   </article>
 
