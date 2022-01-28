@@ -18,35 +18,24 @@ jobs:
       - name: Setup prerequisites
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
-      - name: Setup snaps
-        run: |
-          sudo snap install aws-cli --classic
-          sudo snap install node --classic --channel=10/stable
-      - name: Use Ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '2.6'
-      - name: Use Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '10.x'
+          sudo apt-get install -y curl make libxml2-dev libxslt-dev npm openssl
       - uses: actions/checkout@v2
         with:
           submodules: 'recursive'
-
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+      - run: npm install
       - name: Setup git submodules
         env:
           GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
         run: |
           make update-init update-modules
-      - name: Update gems
-        run: |
-          gem install bundler -v "~> 2"
-          bundle install --jobs 4 --retry 3
-      - name: Setup npm
-        run: |
-          npm install
       - name: Build site
         env:
           JEKYLL_ENV: production
