@@ -3,7 +3,7 @@ name: deploy
 on:
   push:
     branches:
-      - master
+      - main
       - staging
   repository_dispatch:
 
@@ -12,35 +12,24 @@ jobs:
     name: Build site
     runs-on: ubuntu-latest
     environment:
-      name: ${{ github.ref == 'refs/heads/master' && 'production' || 'staging' }}
-      url: ${{ github.ref == 'refs/heads/master' && 'https://www.isotc211.org' || 'https://staging-www.isotc211.org' }}
+      name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
+      url: ${{ github.ref == 'refs/heads/main' && 'https://www.isotc211.org' || 'https://staging-www.isotc211.org' }}
     steps:
-      - name: Setup prerequisites
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y curl make libxml2-dev libxslt-dev npm openssl
       - uses: actions/checkout@v2
-        with:
-          submodules: 'recursive'
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6
+          ruby-version: 3.1
           bundler-cache: true
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
           cache: 'npm'
       - run: npm install
-      - name: Setup git submodules
-        env:
-          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-        run: |
-          make update-init update-modules
       - name: Build site
         env:
           JEKYLL_ENV: production
-        run: |
-          make all
+        run: make all
+      - uses: chrislennon/action-aws-cli@v1.1
 
       - name: Deploy
         env:
