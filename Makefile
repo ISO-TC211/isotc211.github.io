@@ -6,7 +6,7 @@ bundle:
 	bundle
 
 clean:
-	rm -rf _site
+	bundle exec jekyll clean
 
 _site:
 	bundle exec jekyll build
