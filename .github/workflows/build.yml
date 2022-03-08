@@ -2,11 +2,7 @@ name: build
 
 on:
   push:
-    branches:
-      - '*'         # matches every branch
-      - '*/*'       # matches every branch containing a single '/'
-      - '!main'
-      - '!staging'
+    branches: [ main, staging ]
   pull_request:
 
 jobs:
@@ -14,10 +10,6 @@ jobs:
     name: Build site
     runs-on: ubuntu-latest
     steps:
-      - name: Setup prerequisites
-        run: |
-          # sudo apt-get update
-          # sudo apt-get install -y curl make libxml2-dev libxslt-dev npm openssl
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
         with:
@@ -31,5 +23,4 @@ jobs:
       - name: Build site
         env:
           JEKYLL_ENV: production
-        run: |
-          make all
+        run: make all
