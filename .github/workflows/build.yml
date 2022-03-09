@@ -45,6 +45,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: site
+          path: _site
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
