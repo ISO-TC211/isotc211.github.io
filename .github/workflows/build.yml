@@ -30,7 +30,7 @@ jobs:
         with:
           name: site
           path: _site
-          retention-days: 1
+          # retention-days: 1
 
   deploy:
     name: Deploy site
@@ -51,6 +51,8 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
+
+      - run: 'ls -al'
 
       - name: Deploy to AWS
         env:
