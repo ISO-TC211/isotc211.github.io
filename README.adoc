@@ -21,13 +21,9 @@ This repository is jointly managed by ISO/TC 211 and Ribose.
 
 [source,sh]
 ----
-# initializes/fetches the submodules
-make update-init update-modules
-
 # removes site artifacts
 make clean
 
 # makes _site
 make all
 ----
-
