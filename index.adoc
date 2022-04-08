@@ -82,7 +82,7 @@ permalink: /
       <p>
       Source: <a href="https://github.com/ISO-TC211/TMG">TMG GitHub&nbsp;repository</a>
       <p>
-      Feedback: <a href="https://isotc211.geolexica.com/feedback">Online MLGT feedback page</a>
+      Feedback: <a href="https://isotc211.geolexica.org/feedback">Online MLGT feedback page</a>
     </div>
   </article>
 
