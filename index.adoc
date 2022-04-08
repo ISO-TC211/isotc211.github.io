@@ -6,7 +6,7 @@ permalink: /
 
 ++++
 <section class="resource-grid">
-  <article class="resource">
+  <article id="resource-isogr" class="resource">
     <h3>ISO Geodetic Registry <small class="new-label">new</small></h3>
     <div class="wg">By <abbr title="ISO 19127 Geodetic Registry Control Body">ISO Geodetic Registry Control Body</abbr></div>
 
@@ -18,7 +18,7 @@ permalink: /
     </div>
   </article>
 
-  <article class="resource">
+  <article id="resource-standards" class="resource">
     <h3>Normative statements and conformance <small class="new-label">new</small></h3>
     <div class="wg">By <abbr title="Resources Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 Resources Group</abbr></div>
 
@@ -30,7 +30,7 @@ permalink: /
     </div>
   </article>
 
-  <article class="resource">
+  <article id="resource-models" class="resource">
     <h3>UML Models</h3>
     <div class="wg">By <abbr title="Harmonized Model Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 HMMG</abbr></div>
 
@@ -48,7 +48,7 @@ permalink: /
     </div>
   </article>
 
-  <article class="resource">
+  <article id="resource-schemas" class="resource">
     <h3>XML Schemas</h3>
     <div class="wg">By <abbr title="XML Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 XMG</abbr></div>
 
@@ -68,7 +68,7 @@ permalink: /
     </div>
   </article>
 
-  <article class="resource">
+  <article id="resource-terminology" class="resource">
     <h3>Terminology</h3>
     <div class="wg">By <abbr title="Terminology Management Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 TMG</abbr></div>
 
@@ -86,7 +86,7 @@ permalink: /
     </div>
   </article>
 
-  <article class="resource">
+  <article id="resource-ontologies" class="resource">
     <h3>Ontologies</h3>
     <div class="wg">By <abbr title="Group on Ontology Management from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 GOM</abbr></div>
 
@@ -101,7 +101,7 @@ permalink: /
     </div>
   </article>
 
-  <article class="resource">
+  <article id="resource-registry" class="resource">
     <h3>Registries</h3>
     <div class="wg">By <abbr title="Resources Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 Resources Group</abbr></div>
 
