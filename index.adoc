@@ -75,7 +75,6 @@ permalink: /
     <div class="main-links">
       <ul>
         <li><a href="https://isotc211.geolexica.org/">Online Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms (MLGT) at Geolexica</a>
-        <li><a href="https://github.com/ISO-TC211/TMG/releases">Multi-Lingual&nbsp;Glossary&nbsp;of&nbsp;Terms (MLGT) spreadsheet releases</a>
     </div>
 
     <div class="source-links">
