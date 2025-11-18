@@ -1,4 +1,4 @@
-name: build_deploy
+  name: build_deploy
 
 on:
   push:
@@ -39,7 +39,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '15'
+          node-version: '16'
           cache: 'npm'
 
       - run: npm install
