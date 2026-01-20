@@ -50,7 +50,7 @@ permalink: /
 
   <article id="resource-schemas" class="resource">
     <h3>XML Schemas</h3>
-    <div class="wg">By <abbr title="XML Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 XMG</abbr></div>
+    <div class="wg">By <abbr title="XML Maintenance Group from Technical Committee 211 of International Organization for Standardization">ISO/TC 211 ISMG</abbr></div>
 
     <div class="main-links">
       <p>
@@ -64,7 +64,7 @@ permalink: /
     </div>
     <div class="source-links">
       <p>
-      Source: <a href="https://github.com/ISO-TC211/XML">XMG GitHub&nbsp;repository</a>
+      Source: <a href="https://github.com/ISO-TC211/XML">ISMG GitHub&nbsp;repository</a>
     </div>
   </article>
 
