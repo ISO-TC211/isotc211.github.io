@@ -113,7 +113,9 @@ permalink: /
   </article>
 
   <p>
-    Note: ISO/TC 211 Implementation Schema Maintenance Group (ISMG) used to be known as ISO/TC 211 XML Maintenance Group (XMG) before 2025.
+    <small>
+      Note: ISO/TC 211 Implementation Schema Maintenance Group (ISMG) used to be known as ISO/TC 211 XML Maintenance Group (XMG) before 2025.
+    </small>
   </p>
 
 </section>
