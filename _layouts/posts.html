@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="blog-page">
+  <div class="blog-page__inner">
+    <div class="section__header">
+      <span class="section__kicker">Latest</span>
+      <h1 class="section__title">News &amp; Articles</h1>
+    </div>
+    <div class="blog-list">
+      {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+      {% for post in sorted_posts %}
+      <a href="{{ post.url }}" class="blog-item">
+        <div class="blog-item__date">{{ post.date | date: "%b %d, %Y" }}</div>
+        <h2 class="blog-item__title">{{ post.title }}</h2>
+        {% if post.excerpt %}
+        <p class="blog-item__excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+        {% endif %}
+        <span class="blog-item__arrow">
+          Read more
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
