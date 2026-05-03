@@ -1,5 +1,10 @@
 _site
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
 node_modules
 Gemfile.lock
+vite-dev
+.vscode/
+old/
+logo-sis.svg

@@ -1,8 +1,6 @@
 title: Resource site for ISO/TC 211 Geographic information/Geomatics
 title_html: Geographic technology standard models & schemas
 
-font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
-
 google_analytics:
   id: UA-138578173-1
 
@@ -10,22 +8,11 @@ committee:
   id: 211
   name: Geographic information/Geomatics
   home: https://committee.iso.org/home/tc211
-  links:
-    - url: /about
-      title: About
-    - url: /strategic-policy
-      title: Strategic Policy Statement
-    - url: /faq
-      title: FAQ
-    - url: /related
-      title: Related
 
 collections:
   pages:
     output: true
     permalink: /:path/
-
-always_show_committee_link_on_landing: yes
 
 email: open.source@ribose.com
 
@@ -38,11 +25,13 @@ tagline: >-
 baseurl: ""
 url: "https://www.isotc211.org"
 
-theme: jekyll-theme-isotc211
+markdown: kramdown
 
-awards:
-  - title: 2010 Lawrence D. Eicher Leadership Award
-    path: /award/2010/09/16/tc211-wins-iso-excellence-award.html
+plugins:
+  - jekyll/vite
+  - jekyll-feed
+  - jekyll-data
+  - jekyll-asciidoc
 
 social:
   links:
@@ -56,16 +45,17 @@ powered_by:
   title: Ribose
   logo_path: /assets/logo-ribose.svg
 
-nav:
-  items:
-    - id: home
-      url: /
-      title: Home
-      description: Standard resource links & latest news
-    - id: news
-      url: /posts
-      title: News & Articles
-
-footer_nav:
-  - url: https://committee.iso.org/home/tc211
-    title: ISO/TC 211
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - package.json
+  - package-lock.json
+  - node_modules
+  - vendor
+  - .sass-cache
+  - vite.config.ts
+  - postcss.config.js
+  - bin
+  - _frontend
+  - config/vite.json
