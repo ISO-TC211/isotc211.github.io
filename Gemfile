@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "jekyll-theme-isotc211", path: "../jekyll-theme-isotc211"
+gem "jekyll-theme-isotc211", github: "ISO-TC211/jekyll-theme-isotc211", branch: "feat/modern-rewrite"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
