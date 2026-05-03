@@ -1,5 +1,8 @@
-title: Resource site for ISO/TC 211 Geographic information/Geomatics
-title_html: Geographic technology standard models & schemas
+title: ISO/TC 211
+title_html: "ISO/TC&nbsp;211"
+brand_sub: "Harmonized Resources Maintenance Agency"
+
+theme: jekyll-theme-isotc211
 
 google_analytics:
   id: UA-138578173-1
@@ -33,12 +36,39 @@ plugins:
   - jekyll-data
   - jekyll-asciidoc
 
+nav:
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /posts/
+
+footer_links:
+  - title: Geodetic Registry
+    url: https://geodetic.isotc211.org/
+  - title: Normative Statements
+    url: https://standards.isotc211.org/
+  - title: UML Models
+    url: http://iso.sparxcloud.com/index.php
+  - title: Schemas
+    url: https://schemas.isotc211.org
+  - title: Terminology
+    url: https://isotc211.geolexica.org/
+  - title: Ontologies
+    url: https://def.isotc211.org
+  - title: Registries
+    url: https://registry.isotc211.org/
+
+awards:
+  - title: Winner of the 2010 Lawrence D. Eicher Leadership Award
+    path: /award/2010/09/16/tc211-wins-iso-excellence-award.html
+
 social:
   links:
     - url: https://twitter.com/ISOTC211
     - url: https://github.com/ISO-TC211
-    - url: https://www.facebook.com/groups/236669159734679/
-    - url: https://www.linkedin.com/groups/4222374
+
+favicon_svg: /assets/favicon.svg
+favicon_ico: /assets/favicon.ico
 
 powered_by:
   url: https://open.ribose.com

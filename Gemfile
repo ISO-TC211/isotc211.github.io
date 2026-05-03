@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
+gem "jekyll-theme-isotc211", path: "../jekyll-theme-isotc211"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
