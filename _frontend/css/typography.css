@@ -1,0 +1,35 @@
+/* ── Page Typography ─────────────────────────────── */
+
+@layer components {
+  .page-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #0061ad;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .dark .page-label { color: #3385d6; }
+
+  .page-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #0f172a;
+    margin: 0;
+  }
+  .dark .page-title { color: #fff; }
+
+  .section-heading {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin: 0;
+  }
+  .dark .section-heading { color: #fff; }
+
+  .meta-text {
+    font-size: 0.875rem;
+    color: #64748b;
+  }
+  .dark .meta-text { color: #94a3b8; }
+}
