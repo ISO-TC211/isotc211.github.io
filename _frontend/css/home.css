@@ -632,6 +632,15 @@
   .dark .blog-item__arrow { color: #66a3e0; }
   .blog-item:hover .blog-item__arrow { gap: 0.625rem; }
 
+  .post-illustration {
+    display: block;
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    border-radius: 0.75rem;
+    margin: 0 auto 2rem;
+  }
+
   .blog-content {
     font-size: 1.0625rem;
     line-height: 1.75;

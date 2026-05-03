@@ -8,6 +8,9 @@ layout: default
     {% if page.date %}
     <p class="blog-item__date" style="margin-bottom: 2rem;">{{ page.date | date: "%B %d, %Y" }}</p>
     {% endif %}
+    {% if page.illustration %}
+    <img src="{{ page.illustration }}" alt="{{ page.title }}" class="post-illustration">
+    {% endif %}
     <div class="blog-content">
       {{ content }}
     </div>
