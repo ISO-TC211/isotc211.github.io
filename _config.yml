@@ -39,8 +39,8 @@ plugins:
 nav:
   - title: About
     url: /about/
-  - title: Blog
-    url: /posts/
+  - title: News
+    url: /news/
 
 footer_links:
   - title: Geodetic Registry
