@@ -414,4 +414,9 @@
     margin-top: 0.125rem;
   }
   .dark .repo-card__desc { color: #94a3b8; }
+
+  .icon--sun { display: none; }
+  .icon--moon { display: block; }
+  html.dark .icon--sun { display: block; }
+  html.dark .icon--moon { display: none; }
 }
