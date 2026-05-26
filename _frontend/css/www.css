@@ -9,6 +9,7 @@
     align-items: center;
     overflow: hidden;
     isolation: isolate;
+    margin-top: -4rem;
   }
 
   .hero-canvas {
