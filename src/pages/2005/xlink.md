@@ -9,5 +9,4 @@ W3C Recommendation 27 June 2001 - XML Schema document
 
 [xlinks.xsd](xlinks.xsd)
 
-> **Note**
-> This file is a local copy (W3C does not provide a version of the schema document).
+NOTE: This file is a local copy (W3C does not provide a version of the schema document).
