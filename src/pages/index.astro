@@ -249,7 +249,7 @@ const formatDate = (d: Date) =>
 
     <div class="blog-list">
       {posts.map((post) => (
-        <a href={postPath(post.data.date, post.id)} class="blog-item">
+        <a href={postPath(post.data.date, post.id, post.data.categories)} class="blog-item">
           <div class="blog-item__date">{formatDate(post.data.date)}</div>
           <h3 class="blog-item__title">{post.data.title}</h3>
           {excerpt(post.body) && <p class="blog-item__excerpt">{excerpt(post.body)}</p>}

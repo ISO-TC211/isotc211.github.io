@@ -1,7 +1,7 @@
 ---
-import SiteLayout from '../../../layouts/SiteLayout.astro'
+import SiteLayout from '../layouts/SiteLayout.astro'
 import { getCollection, render } from 'astro:content'
-import { postSlug } from '../../../lib/slug'
+import { postSlug } from '../lib/slug'
 
 export async function getStaticPaths() {
   const posts = await getCollection('news')

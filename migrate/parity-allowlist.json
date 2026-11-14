@@ -1,6 +1,7 @@
 {
   "removed": [
-    "vite/**"
+    "vite/**",
+    "CLAUDE.md"
   ],
   "added": [
     "_astro/**"
@@ -9,7 +10,6 @@
     "404.html",
     "index.html",
     "README.html",
-    "2005/**/index.html",
     "2005/index.html",
     "about/**",
     "faq/**",
@@ -20,6 +20,8 @@
     "press/**",
     "site/**",
     "feed.xml",
-    "favicon.ico"
+    "favicon.ico",
+    "Terminology.htm",
+    "2005/**"
   ]
 }

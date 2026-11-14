@@ -10,7 +10,8 @@ const posts = JSON.parse(readFileSync(join(process.cwd(), 'scripts', 'posts.json
 let moved = 0
 for (const p of posts) {
   const { cats, date, slug } = p
-  const dirPath = join(dist, ...cats.split('/'), ...date.split('-'), slug)
+  const catParts = Array.isArray(cats) ? cats : cats.split('/')
+  const dirPath = join(dist, ...catParts, ...date.split('-'), slug)
   const target = `${dirPath}.html`
   if (!existsSync(join(dirPath, 'index.html'))) {
     console.log(`postbuild: MISSING ${dirPath}`)

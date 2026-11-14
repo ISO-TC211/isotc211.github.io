@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/DocLayout.astro
+layout: ../layouts/DocLayout.astro
 title: "Strategic Policy Statement"
 version: "1.1"
 ---

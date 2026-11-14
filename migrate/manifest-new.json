@@ -2,7 +2,7 @@
   "tool": "migrate/inventory.mjs",
   "dir": "dist",
   "fileCount": 148,
-  "totalBytes": 2624267,
+  "totalBytes": 2620136,
   "files": [
     {
       "path": "2005/1.1/gfc/gfc.xsd",
@@ -12,7 +12,7 @@
     {
       "path": "2005/1.1/index.html",
       "bytes": 12380,
-      "sha256": "b9a2c3ecc04db0acdb5423e1ae9003a5c2efc9ec112c98c9d19760499b8963b0"
+      "sha256": "b758b90e382562f632975768f08fc914ef0387668538c95823e447fc3048ebfd"
     },
     {
       "path": "2005/1.1/resources/example/G_3.xml",
@@ -37,7 +37,7 @@
     {
       "path": "2005/gco/index.html",
       "bytes": 12396,
-      "sha256": "be1fa63f7fa1847edf086dbe648a0cf51887cefdc9bfb168d7449c7d5f05a68e"
+      "sha256": "ca5c3c8dc01949d3688b21f359a0f7e43d43d1fa524124bf8b1933b6b62a5033"
     },
     {
       "path": "2005/gfc/gfc.xsd",
@@ -47,7 +47,7 @@
     {
       "path": "2005/gfc/index.html",
       "bytes": 12370,
-      "sha256": "79ae85e542e4ea6c90751885614770951c959f592cd56d86fa5036b870896a5a"
+      "sha256": "59ed0eb5dbe93dc84c8a38cbffd9b1d1db58788825c890d471ad08fbc9f9abf2"
     },
     {
       "path": "2005/gfc/resources/example/G_3.xml",
@@ -107,7 +107,7 @@
     {
       "path": "2005/gmd/index.html",
       "bytes": 13242,
-      "sha256": "3240988102cba448ed6e51c029ec11f0ae596ff802bba7f2fe2003e0f593bc3a"
+      "sha256": "5c9d865bf3d571781718c30137606d997b60663f98d33e0c46a2cd5e2a9bb60d"
     },
     {
       "path": "2005/gmd/maintenance.xsd",
@@ -167,7 +167,7 @@
     {
       "path": "2005/gmi/index.html",
       "bytes": 12683,
-      "sha256": "eff8929a82117d831d16a5f93ba929e13368d2871d676929e62d3e3d6de250cf"
+      "sha256": "e23809e7ca0147483465ac16040cd674ba81173d760c39d2f6a8921a8f087bb4"
     },
     {
       "path": "2005/gmi/metadataEntitySet.xsd",
@@ -272,7 +272,7 @@
     {
       "path": "2005/gml/index.html",
       "bytes": 14160,
-      "sha256": "a4b364ac3bbc9d158807a2492aadf54194098baf6b1d7fe6865d53c395b197b6"
+      "sha256": "0d87d7bc07d4873bb4eb6ec93b812e2f360ad403e1ce45c31ad67907dff541d2"
     },
     {
       "path": "2005/gml/measures.xsd",
@@ -352,7 +352,7 @@
     {
       "path": "2005/gmx/index.html",
       "bytes": 12608,
-      "sha256": "25a71113f13c08776ec2bedead4e694647ee41ff405e9d69a79553b5bdb72bc9"
+      "sha256": "64427675b9d4ac0e272acf2e1677de45c2745eb8adcdcc4f836d2eb00eb8eca9"
     },
     {
       "path": "2005/gmx/uomItem.xsd",
@@ -372,7 +372,7 @@
     {
       "path": "2005/gplr/index.html",
       "bytes": 12473,
-      "sha256": "8cc3afeb31f7ea9e843200641cbc43b909b6e00a2cf2832b91ec7d81a3ac6504"
+      "sha256": "63c4ed5ee80ed019b2054aef5c467d93d5c7c9a1edda9cba3e3cf43e6c37322f"
     },
     {
       "path": "2005/gplr/resources/Codelist/gplrCodelists.xml",
@@ -387,7 +387,7 @@
     {
       "path": "2005/grg/index.html",
       "bytes": 12345,
-      "sha256": "e36d060f0ec5b948963f23d38a50f60c9015a967fd8efdb8651a223f6514e786"
+      "sha256": "58e8c44721c4ea65cdc2f7fa7981848143b063bc5b7ee934ef2efcecd8e695e3"
     },
     {
       "path": "2005/grg/register.xsd",
@@ -402,7 +402,7 @@
     {
       "path": "2005/gsr/index.html",
       "bytes": 12365,
-      "sha256": "6c40d5264919e333750622841bc999afc81ff0742071c8f7ecc38a93f8eadb70"
+      "sha256": "2a289660f211333065f4a615f62d44eba203da0a500bbc534c33b0ea4d74d9c8"
     },
     {
       "path": "2005/gsr/spatialReferencing.xsd",
@@ -422,7 +422,7 @@
     {
       "path": "2005/gss/index.html",
       "bytes": 12345,
-      "sha256": "780571b5616a9fe67c4e69a8156da33e252b23db36a8fd38a2ffcc9d70b4fbe6"
+      "sha256": "4c3f3eb2d916cde32fcadecb01962b6c9e3480a0bfc5377124a5027920450397"
     },
     {
       "path": "2005/gts/gts.xsd",
@@ -432,7 +432,7 @@
     {
       "path": "2005/gts/index.html",
       "bytes": 12359,
-      "sha256": "6299e5d09ee11b826fdae4e2a6b16a72ebed7e3514765f3f51ddc2f686b7e6df"
+      "sha256": "ba68a93c3f20b1d2ed39af9ee93c4dd2af6d9c1a31007be57d4ba738bdc3ca5c"
     },
     {
       "path": "2005/gts/temporalObjects.xsd",
@@ -442,7 +442,7 @@
     {
       "path": "2005/index.html",
       "bytes": 14079,
-      "sha256": "d69efa9e3cdb233a267feb696543be1285e439806b23dbd008a81a287a8add4b"
+      "sha256": "58b15e7a64600127e6907ee8d2a840268e0faf6b277a0e1d6e153c6f551936eb"
     },
     {
       "path": "2005/resources/Codelist/ML_gmxCodelists.xml",
@@ -487,7 +487,7 @@
     {
       "path": "2005/resources/index.html",
       "bytes": 13025,
-      "sha256": "e04de4126dc2896bb7e1149c2d0e5cc14167d6c9aeab88548f873187d7b29953"
+      "sha256": "51c26597ea2ad91346f6445acb8a7a7edbf275b53ae009c23e45338fc99b7ace"
     },
     {
       "path": "2005/resources/uom/ML_gmxUom.xml",
@@ -502,7 +502,7 @@
     {
       "path": "2005/xlink/index.html",
       "bytes": 12526,
-      "sha256": "1db80fddb9e09ea711977a13ee3e07fd444ea86b7356bf762358292f62ff101d"
+      "sha256": "859fe5693f6e0e8f1e8fe892f4ff38828fa65a50e4f1b6c1e3f5db07c3b73820"
     },
     {
       "path": "2005/xlink/xlinks.xsd",
@@ -517,7 +517,7 @@
     {
       "path": "2005/xsd/index.html",
       "bytes": 12374,
-      "sha256": "f426951e1fb2d93f0b03bfbbfa47551cff0d327be274568f3e4f350029a9cd7a"
+      "sha256": "354273790ac6d375f482a92a6814a14e80a30ad51c9c33a2230871fd1074111e"
     },
     {
       "path": "2005/xsd/resources/example/G_3.xml",
@@ -527,7 +527,7 @@
     {
       "path": "404.html",
       "bytes": 12381,
-      "sha256": "91fd022f246376f26efe8c01890dfb4efc34deb4d18b6df8869b0888adccbca6"
+      "sha256": "efbeddc2e6307d31ec89321680a2540fc7852ca292967c725573c294f9901ee6"
     },
     {
       "path": "README.html",
@@ -540,9 +540,9 @@
       "sha256": "15624d4fc404f0182c1690193469c8e524ea9304d50789936a400ea77e3290c9"
     },
     {
-      "path": "_astro/SiteLayout.D5TjAvul.css",
-      "bytes": 37609,
-      "sha256": "4f71af914bf9b9f2325942033deb81f761794d71aa68e3a067c14fafe8385222"
+      "path": "_astro/SiteLayout.CV-w-l7Z.css",
+      "bytes": 33478,
+      "sha256": "c8aca4d9a59dae278ee5595ed6324a8ed75db22ca69e1372598f5c6adefa844c"
     },
     {
       "path": "_astro/ThemeToggle.MWsto1OK.js",
@@ -562,7 +562,7 @@
     {
       "path": "about/index.html",
       "bytes": 15384,
-      "sha256": "4d06df1413093879915d59349f165183141a2a86c7a65e7198fc1ae049629d97"
+      "sha256": "33830e9aacc3adad148bb65ce1ba33ad66ecc9ae7ae4cb151d03a593fc853d2f"
     },
     {
       "path": "assets/2010-iso-excellence-award.jpg",
@@ -637,12 +637,12 @@
     {
       "path": "award/2010/09/16/tc211-wins-iso-excellence-award.html",
       "bytes": 12846,
-      "sha256": "eb657b6f94e2344e02bbb1645491a80f6db020548d1a14dc16288c80a01d8a38"
+      "sha256": "2e10670db070095ef181e41771213035d42181de1c8e666c4b798d22e0c6a11f"
     },
     {
       "path": "faq/index.html",
       "bytes": 16170,
-      "sha256": "95b442b8ca012b5be2b9915a4f5198ea9bc4930c2ffe4b7abebbf8e4962ce510"
+      "sha256": "023b0d9132b939a3f2ffa735eb3a316840872910edf878a240018549660d1064"
     },
     {
       "path": "favicon.ico",
@@ -692,7 +692,7 @@
     {
       "path": "index.html",
       "bytes": 29091,
-      "sha256": "72d860d3dd947cfc83646fd27e53ae0127642ba357f0849df2f52d0d46932caa"
+      "sha256": "c0d31515ae9fd50a43002392c7d7d656cf6808029f09982d098bcb14096163f6"
     },
     {
       "path": "logo-sis.svg",
@@ -702,7 +702,7 @@
     {
       "path": "news/index.html",
       "bytes": 15592,
-      "sha256": "48ff6296773a2babc70af3509bb8f2077aefa0f37f944f5d3e217c2a06da4d61"
+      "sha256": "40c727209056d0f22786d0bfeb8d36f9bdd7be44d2a0062ea283c39ffca53bd6"
     },
     {
       "path": "old/welcome.htm",
@@ -712,17 +712,17 @@
     {
       "path": "press/1997/05/14/tc211-ogc-collaborate-on-standards.html",
       "bytes": 19530,
-      "sha256": "07e6e7bba500b5d7c98aee36d95deae28bd31327261f4f2c462c079a849362cd"
+      "sha256": "3e28fb0fcdb4b1f2772363030fa6204d6002995e20b83acbba6a1811cfc48487"
     },
     {
       "path": "press/2022/03/06/tc211-harmonized-resources-maintenance-agency.html",
       "bytes": 14650,
-      "sha256": "96b91155a0833cb4b8bf85728f28e2e53abb9594da4251d0694453a582b59f67"
+      "sha256": "b22b4d5e157443d6417304c315c5f878617ae026b7bf2e0a5ae3597003bd3b80"
     },
     {
       "path": "related/index.html",
       "bytes": 17098,
-      "sha256": "20f2789b769805f35e76668a6787238304d2755477055860d43e0df2dec874e5"
+      "sha256": "34a8a6e1999d30fcc0067868eb22654a087118ca5d6b02cea34b84bcef9773db"
     },
     {
       "path": "robots.txt",
@@ -732,17 +732,17 @@
     {
       "path": "site/2026/05/03/redesigned-hmra-site.html",
       "bytes": 14880,
-      "sha256": "e48b4d30c6b26f773ea788bfefaffc6124837e4d716f06e61a5a0d408b23ad4c"
+      "sha256": "4613846fbdf050057f92c11b3e5bdc3055f0139c6481727627b01cd785e68eda"
     },
     {
       "path": "site/update/2018/12/13/site-migrated-to-ribose.html",
       "bytes": 12966,
-      "sha256": "a287fb4d945ef22002f35a59a798f9c101430405e6fe221bfbf18582ecbec845"
+      "sha256": "b782261b25f6631a90d669d13ee9a5d44cda83dd40d84db21909d91e7f0a3b5b"
     },
     {
       "path": "strategic-policy/index.html",
       "bytes": 22879,
-      "sha256": "75a62db2410c86119d51342fe1dbb2ac4df4d7f13aaadb2129acca1e0cd94f8d"
+      "sha256": "e9290f1f55a7859673dee030871448178f52e29b8626f1505369905c3852f01d"
     }
   ]
 }
