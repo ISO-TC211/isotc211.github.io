@@ -1,0 +1,27 @@
+{
+  "removed": [
+    "vite/**",
+    "CLAUDE.md"
+  ],
+  "added": [
+    "_astro/**"
+  ],
+  "changed": [
+    "404.html",
+    "index.html",
+    "README.html",
+    "2005/index.html",
+    "about/**",
+    "faq/**",
+    "related/**",
+    "strategic-policy/**",
+    "news/**",
+    "award/**",
+    "press/**",
+    "site/**",
+    "feed.xml",
+    "favicon.ico",
+    "Terminology.htm",
+    "2005/**"
+  ]
+}

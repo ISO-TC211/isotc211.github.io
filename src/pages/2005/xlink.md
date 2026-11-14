@@ -1,0 +1,13 @@
+---
+layout: ../../layouts/XmlSchemasLayout.astro
+title: "XML Linking Language (XLink) Version 1.0"
+---
+
+W3C Recommendation 27 June 2001 - XML Schema document
+
+## Files provided
+
+[xlinks.xsd](xlinks.xsd)
+
+> **Note**
+> This file is a local copy (W3C does not provide a version of the schema document).

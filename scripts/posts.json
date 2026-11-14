@@ -1,0 +1,43 @@
+[
+ {
+  "file": "1997-05-14-tc211-ogc-collaborate-on-standards",
+  "cats": [
+   "press"
+  ],
+  "date": "1997-05-14",
+  "slug": "tc211-ogc-collaborate-on-standards"
+ },
+ {
+  "file": "2010-09-16-tc211-wins-iso-excellence-award",
+  "cats": [
+   "award"
+  ],
+  "date": "2010-09-16",
+  "slug": "tc211-wins-iso-excellence-award"
+ },
+ {
+  "file": "2018-12-13-site-migrated-to-ribose",
+  "cats": [
+   "site",
+   "update"
+  ],
+  "date": "2018-12-13",
+  "slug": "site-migrated-to-ribose"
+ },
+ {
+  "file": "2022-03-06-tc211-harmonized-resources-maintenance-agency",
+  "cats": [
+   "press"
+  ],
+  "date": "2022-03-06",
+  "slug": "tc211-harmonized-resources-maintenance-agency"
+ },
+ {
+  "file": "2026-05-03-redesigned-hmra-site",
+  "cats": [
+   "site"
+  ],
+  "date": "2026-05-03",
+  "slug": "redesigned-hmra-site"
+ }
+]
