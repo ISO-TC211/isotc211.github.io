@@ -1,0 +1,14 @@
+---
+/** Layout for the /2005/ schema pages — port of the gem-era xml-schemas layout. */
+import SiteLayout from './SiteLayout.astro'
+
+const { title } = Astro.props.frontmatter ?? {}
+---
+
+<SiteLayout title={title}>
+  <article class="blog-page">
+    <div class="blog-page__inner">
+      <slot />
+    </div>
+  </article>
+</SiteLayout>

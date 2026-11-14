@@ -13,34 +13,21 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v6
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.4'
-        bundler-cache: true
-        cache-version: 0
-
     - name: Setup node
       uses: actions/setup-node@v6
       with:
         node-version: '22'
         cache: 'npm'
 
-    - run: npm install
+    - run: npm ci
 
-    - name: Setup Pages
-      id: pages
-      uses: actions/configure-pages@v5
-
-    - name: Build with Jekyll
-      run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-      env:
-        JEKYLL_ENV: production
+    - name: Build site
+      run: npm run build
 
     - name: Link Checker
       uses: lycheeverse/lychee-action@v2
       with:
-        args: --verbose --no-progress --root-dir _site --exclude-file .lycheeignore -- _site/**/*.html
+        args: --verbose --no-progress --root-dir dist --exclude 'https://www\.iso\.org/' -- 'dist/**/*.html'
         fail: true
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

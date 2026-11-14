@@ -1,0 +1,14 @@
+---
+/** Layout for converted AsciiDoc content pages (faq, related, strategic-policy). */
+import SiteLayout from './SiteLayout.astro'
+
+const { title } = Astro.props.frontmatter ?? {}
+---
+
+<SiteLayout title={title}>
+  <div class="section section--white">
+    <div style="max-width: 56rem; margin: 0 auto;">
+      <slot />
+    </div>
+  </div>
+</SiteLayout>
