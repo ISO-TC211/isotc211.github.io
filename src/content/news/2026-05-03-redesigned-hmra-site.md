@@ -2,7 +2,7 @@
 title: "Redesigned ISO/TC 211 HMRA site launches with modern experience"
 date: 2026-05-03 00:00:00 +0000
 categories: [site]
-excerpt: >-
+excerpt: "The ISO/TC 211 Harmonized Resources Maintenance Agency (HRMA) rolls out a redesigned www.isotc211.org as the first step of an incremental modernization effort across all TC 211 resource sites."
 authors:
   - name: "Ronald Tse"
   - name: "Mats Åhlin"

@@ -2,15 +2,12 @@
 title: "ISO/TC 211 and OGC collaborate on geoprocessing standards"
 date: 1997-05-14 00:00:00 +0000
 categories: [press]
-excerpt: >-
+excerpt: "Both organizations seek to provide robust standards which can be universally implemented."
 ---
 
-[NOTE]
-====
-This is a reproduction of the original OPENGIS CONSORTIUM, INC. NEWS RELEASE, with websites updated.
-====
+> **Note**
+> This is a reproduction of the original OPENGIS CONSORTIUM, INC. NEWS RELEASE, with websites updated.
 
-[.lead]
 _Wayland, Massachusetts, USA and Oslo, Norway May 14, 1997_ --
 The Open GIS Consortium, Inc. (OGC)
 and the International Organization for Standardization Technical Committee 211 Geographic information/Geomatics (ISO/TC 211)
@@ -88,21 +85,21 @@ See [http://www.opengeospatial.org](http://www.opengeospatial.org).
 
 ## Contacts
 
-Lance McKee                                    +
-Vice President Corporate Communications        +
-Open GIS Consortium, Inc.                      +
-35 Main Street, Suite 5                        +
-Wayland, MA 01778                              +
-Tel. +1 508-655-5858                           +
-Fax +1 508-655-2237                            +
+Lance McKee                                   
+Vice President Corporate Communications       
+Open GIS Consortium, Inc.                     
+35 Main Street, Suite 5                       
+Wayland, MA 01778                             
+Tel. +1 508-655-5858                          
+Fax +1 508-655-2237                           
 lmckee@opengis.org
 
-Olaf Østensen                                  +
-Chairman                                       +
-ISO/TC 211 Geographic information/Geomatics    +
-c/o Norwegian Mapping Authority                +
-Kartverksveien 21                              +
-N-3500 Honefoss Norway                         +
-Tel. +47 32 11 81 00                           +
-Fax +47 32 11 81 01                            +
+Olaf Østensen                                 
+Chairman                                      
+ISO/TC 211 Geographic information/Geomatics   
+c/o Norwegian Mapping Authority               
+Kartverksveien 21                             
+N-3500 Honefoss Norway                        
+Tel. +47 32 11 81 00                          
+Fax +47 32 11 81 01                           
 olaf.ostensen@statkart.no

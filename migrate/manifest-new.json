@@ -2,7 +2,7 @@
   "tool": "migrate/inventory.mjs",
   "dir": "dist",
   "fileCount": 148,
-  "totalBytes": 2620136,
+  "totalBytes": 2620641,
   "files": [
     {
       "path": "2005/1.1/gfc/gfc.xsd",
@@ -441,8 +441,8 @@
     },
     {
       "path": "2005/index.html",
-      "bytes": 14079,
-      "sha256": "58b15e7a64600127e6907ee8d2a840268e0faf6b277a0e1d6e153c6f551936eb"
+      "bytes": 15165,
+      "sha256": "2d65b7a7554e1fbc1e15dc4eeed7d46dc6bbc98ee3e6cbf8303de0080663371f"
     },
     {
       "path": "2005/resources/Codelist/ML_gmxCodelists.xml",
@@ -501,8 +501,8 @@
     },
     {
       "path": "2005/xlink/index.html",
-      "bytes": 12526,
-      "sha256": "859fe5693f6e0e8f1e8fe892f4ff38828fa65a50e4f1b6c1e3f5db07c3b73820"
+      "bytes": 12483,
+      "sha256": "2d5d8bc980faa7787c061c51000aaff0c504a507ed51f02e1b8101fbdd0bbaef"
     },
     {
       "path": "2005/xlink/xlinks.xsd",
@@ -641,8 +641,8 @@
     },
     {
       "path": "faq/index.html",
-      "bytes": 16170,
-      "sha256": "023b0d9132b939a3f2ffa735eb3a316840872910edf878a240018549660d1064"
+      "bytes": 16127,
+      "sha256": "f4dc30e5100571a4381f1b3370a5aaeee50cc51816d81c88d6f7df499515c883"
     },
     {
       "path": "favicon.ico",
@@ -691,8 +691,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 29091,
-      "sha256": "c0d31515ae9fd50a43002392c7d7d656cf6808029f09982d098bcb14096163f6"
+      "bytes": 29081,
+      "sha256": "6b128bdb3ba558493b5d700a0b7ad093b80d813aa15471925f88a215214c1c96"
     },
     {
       "path": "logo-sis.svg",
@@ -701,8 +701,8 @@
     },
     {
       "path": "news/index.html",
-      "bytes": 15592,
-      "sha256": "40c727209056d0f22786d0bfeb8d36f9bdd7be44d2a0062ea283c39ffca53bd6"
+      "bytes": 15582,
+      "sha256": "2e66f96cc2140745bb40a474aacd074b3f0335638fac10fce8bd661c1bea8b2d"
     },
     {
       "path": "old/welcome.htm",
@@ -711,8 +711,8 @@
     },
     {
       "path": "press/1997/05/14/tc211-ogc-collaborate-on-standards.html",
-      "bytes": 19530,
-      "sha256": "3e28fb0fcdb4b1f2772363030fa6204d6002995e20b83acbba6a1811cfc48487"
+      "bytes": 19108,
+      "sha256": "693b706165d146bb215846b98500ca5779b3cc57fa429899f848fe30405bb152"
     },
     {
       "path": "press/2022/03/06/tc211-harmonized-resources-maintenance-agency.html",
@@ -741,8 +741,8 @@
     },
     {
       "path": "strategic-policy/index.html",
-      "bytes": 22879,
-      "sha256": "e9290f1f55a7859673dee030871448178f52e29b8626f1505369905c3852f01d"
+      "bytes": 22826,
+      "sha256": "b0894e51ec75b2051b5b66764cd615dae1b60ac7a6387059d8197081ebf60be9"
     }
   ]
 }

@@ -20,8 +20,7 @@ d) giving a prospective view on emerging needs.
 
 The statement shall be formally agreed upon by the technical committee and be included in its report for review by the Technical Management Board on a regular basis.
 
-> **Note**
-> The present version contains only small changes to the previous text (ISO/TC 211 N 219). A couple of paragraphs have been added
+NOTE: The present version contains only small changes to the previous text (ISO/TC 211 N 219). A couple of paragraphs have been added
 
 ## Introduction
 
@@ -55,14 +54,7 @@ Marketing is emerging as one of the many important new application areas in the 
 
 The scope of ISO/TC 211 is:
 
-[quote]
-____
-Standardization in the field of digital geographic information. This work aims to establish a structured set of standards for information concerning objects or phenomena that are directly or indirectly associated with a location relative to the Earth.
-
-These standards may specify, for geographic information, methods, tools and services for data management (including definition and description), acquiring, processing, analyzing, accessing, presenting and transferring such data in digital / electronic form between different users, systems and locations.
-
-The work shall link to appropriate standards for information technology and data where possible, and provide a framework for the development of sector-specific applications using geographic data.
-____
+> Standardization in the field of digital geographic information. This work aims to establish a structured set of standards for information concerning objects or phenomena that are directly or indirectly associated with a location relative to the Earth.  These standards may specify, for geographic information, methods, tools and services for data management (including definition and description), acquiring, processing, analyzing, accessing, presenting and transferring such data in digital / electronic form between different users, systems and locations.  The work shall link to appropriate standards for information technology and data where possible, and provide a framework for the development of sector-specific applications using geographic data.
 
 The committee defines *geographic information* as "`_information concerning phenomena directly or indirectly associated with a location relative to the surface of the Earth_`" and *geomatics* as "`_(discipline) concerned with the collection, storage, analysis, processing, presentation and distribution of geographic data_`" and, finally, *geographic data* as "`_data describing phenomena directly or indirectly associated with a location relative to the surface of the Earth_`".
 
