@@ -2,7 +2,7 @@
 title: "ISO/TC 211 Harmonized Resources Maintenance Agency established"
 date: 2022-03-06 00:00:00 +0000
 categories: [press]
-excerpt: >-
+excerpt: "The ISO/TMB has appointed https://www.sis.se[SIS] to operate the newly established \"ISO/TC 211 Harmonized Resources Maintenance Agency\" that will serve as the governance umbrella of all ISO/TC 211 managed resources."
 authors:
   - name: "Mats Åhlin"
   - name: "Ronald Tse"

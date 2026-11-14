@@ -69,5 +69,4 @@ to a web location (URL) where the XML schema can be retrieved from.
 XML specs do not require that a namespace formulated to look like a HTTP URI be resolvable.
 An application *SHOULD NOT* depend on resolvability of a namespace URI.
 
-> **Note**
-> More of this discussion can be found here: https://github.com/ISO-TC211/www.isotc211.org/issues/15
+NOTE: More of this discussion can be found here: https://github.com/ISO-TC211/www.isotc211.org/issues/15

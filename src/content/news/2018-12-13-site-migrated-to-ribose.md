@@ -2,7 +2,7 @@
 title: "ISO/TC 211 site migration completed!"
 date: 2018-12-13 00:00:00 +0000
 categories: [site, update]
-excerpt: >-
+excerpt: "TC resources sites have been migrated from the Norwegian Mapping Authority, https://www.kartverket.no/en[Kartverket], to the new provider https://www.ribose.com[Ribose]."
 ---
 
 The ISO/TC 211 resources site have been migrated from the Norwegian Mapping Authority, [Kartverket](https://www.kartverket.no/en/), to the new provider [Ribose](https://www.ribose.com).
