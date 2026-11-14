@@ -1,0 +1,11 @@
+/
+/about/
+/faq/
+/related/
+/strategic-policy/
+/news/
+/2005/
+/2005/gml/
+/2005/xsd/
+/award/2010/09/16/tc211-wins-iso-excellence-award.html
+/press/2022/03/06/tc211-harmonized-resources-maintenance-agency.html
